@@ -1,0 +1,59 @@
+{
+  "document_id": "SYNTHETIC-DEMO-001",
+  "review_basis": "Notice 2026-26, main text only (Annexes absent)",
+  "scope_result": "UNCERTAIN",
+  "overall_status": "FAIL",
+  "sds_document_status": "FAIL",
+  "summary_ko": "가상 예시: 16개 필수 항목 중 제3항목이 누락되어 제10조제1항 위반을 확인함. 별표 및 제품 적용범위 정보 부재로 나머지 검토는 미완료.",
+  "findings": [
+    {
+      "rule_id": "SDS-001",
+      "status": "FAIL",
+      "source_refs": [
+        "제10조제1항",
+        "제10조제1항제3호"
+      ],
+      "sds_page_or_section": "목차 / 1~16장",
+      "evidence": "가상 입력에서 제3항 구성성분의 명칭 및 함유량 항목이 없음.",
+      "reason_ko": "제10조제1항이 정한 16개 항목 중 제3항이 누락됨.",
+      "action_ko": "제3항을 해당 순서에 추가하고 별표 4 세부기재사항에 맞게 작성할 것.",
+      "missing_dependencies": [
+        "별표 4 (세부항목 검증)"
+      ]
+    },
+    {
+      "rule_id": "SDS-002",
+      "status": "NEEDS_REVIEW",
+      "source_refs": [
+        "제10조제2항"
+      ],
+      "sds_page_or_section": null,
+      "evidence": "별표 4 원문이 입력되지 않음.",
+      "reason_ko": "세부항목 완전성을 판단할 기준이 없음.",
+      "action_ko": "동일 개정본 별표 4를 확보하여 재평가할 것.",
+      "missing_dependencies": [
+        "별표 4"
+      ]
+    }
+  ],
+  "missing_inputs": [
+    "실제 SDS 전체 텍스트",
+    "제품 적용 범위 증빙",
+    "해당 별표 원문"
+  ],
+  "annexes_not_provided": [
+    "별표 1",
+    "별표 2",
+    "별표 3",
+    "별표 4",
+    "별표 5",
+    "별표 6",
+    "별표 7"
+  ],
+  "external_law_validation_required": [
+    "산업안전보건법 시행규칙 별표 18"
+  ],
+  "review_scope_limitations": [
+    "모든 발견사항은 설명용 가상 문서에 관한 예시이며 실제 제품 판정이 아님."
+  ]
+}
