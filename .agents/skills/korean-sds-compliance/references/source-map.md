@@ -1,5 +1,9 @@
 # Korean SDS knowledge-base source map
 
+**Korean-specific routing:** Start at [`korea-first-requirements.md`](korea-first-requirements.md) and `assets/korean-requirement-matrix.json` before reading general hazard-classification data. The official anchor for the Korean notice is https://www.law.go.kr/admRulLsInfoP.do?admRulSeq=2100000278320. The notice cites the Industrial Safety and Health Act, its Enforcement Decree and Enforcement Rule, which are **additional mandatory legal evidence when the assessment depends on those provisions**. Do not invent their text if missing.
+
+
+
 Use this guide to locate the **actual Korean evidence**. Do not treat the skill itself as legal source text.
 
 ## Required primary files (workspace-root relative)
