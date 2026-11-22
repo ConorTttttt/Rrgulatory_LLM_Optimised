@@ -1,0 +1,806 @@
+{
+  "metadata": {
+    "annex": "별표 5",
+    "title_ko": "용도분류체계",
+    "source_sha256": "557ad609d9489416896209e42ea7807cec9837e76b3badbee3515d094d5c3c55",
+    "regulation": "고용노동부고시 제2026-26호",
+    "source_revision_alignment": "UNVERIFIED",
+    "original_english_labels_unedited": true,
+    "parent_count": 48,
+    "subcategory_count": 31,
+    "total_categories": 79,
+    "evaluation_limit": "Annex 5 is a product-use vocabulary. It cannot alone determine whether an SDS is required or whether a product is exempt."
+  },
+  "categories": [
+    {
+      "use_code": "1",
+      "title_ko": "원료 및 중간체",
+      "title_en_original": "Feed materials, Intermediates",
+      "description_ko": "새로운 물질의 합성, 혼합물의 배합 등에 사용되는 원료 및 그 과정에서 발생되는 중간체",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 1",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "2",
+      "title_ko": "접착제 및 실런트",
+      "title_en_original": "Adhesives, sealants",
+      "description_ko": "두 물체의 접촉면을 접합시키거나 두 개의 개체를 결합시키는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 2",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "3",
+      "title_ko": "흡착제",
+      "title_en_original": "Adsorbents",
+      "description_ko": "가스나 액체를 흡착하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 3",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "4",
+      "title_ko": "방향제 및 탈취제 등",
+      "title_en_original": "Air care products",
+      "description_ko": "실내 공기 중에 냄새를 발생시키거나 의류 등의 냄새를 제거하는데 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 4",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "5",
+      "title_ko": "냉동방지 및 결빙제거제",
+      "title_en_original": "Anti-Freeze and de-icing products",
+      "description_ko": "냉각에 의하여 고화되는 것을 방지하거나 얼음을 제거하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 5",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "6",
+      "title_ko": "금속(금속 광물 포함) 및 합금",
+      "title_en_original": "Base metals and alloyes",
+      "description_ko": "납, 구리 등 하나의 원소로 이루어진 금속 및 하나의 금속에 한 종류 이상의 금속을 첨가하여 만든 금속",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 6",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "7",
+      "title_ko": "살생물제",
+      "title_en_original": "Biocidal products",
+      "description_ko": "농작물 이외의 대상에 대하여 유해생물을 제거, 무해화(無害化) 또는 억제하기 위해 사용되는 물질(농약 제외)",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 7",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8",
+      "title_ko": "코팅, 페인트, 신너, 페인트 제거제",
+      "title_en_original": "Coatings and paints, thinners, paint removers",
+      "description_ko": "표면에 피막을 입히거나 제거하는데 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 8",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.1",
+      "title_ko": "유성 페인트",
+      "title_en_original": "Oil paint",
+      "description_ko": "신너에 희석하여 사용하는 페인트",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.1",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.2",
+      "title_ko": "수성 페인트",
+      "title_en_original": "Water paint",
+      "description_ko": "물에 희석하여 사용하는 페인트",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.2",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.3",
+      "title_ko": "신너",
+      "title_en_original": "Thinner",
+      "description_ko": "페인트 등을 희석하는데 사용하는 용제",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.3",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.4",
+      "title_ko": "페인트 제거제",
+      "title_en_original": "Paint remover",
+      "description_ko": "도색된 페인트를 표면으로부터 제거하는데 사용하는 물질",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.4",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.5",
+      "title_ko": "경화제",
+      "title_en_original": "Hardener",
+      "description_ko": "경도를 높이거나 경화를 촉진시키기 위하여 첨가하는 물질",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.5",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "8.6",
+      "title_ko": "기타 코팅 및 도장 관련 제품",
+      "title_en_original": "Other coatings and paints",
+      "description_ko": "표면에 피막을 입히거나 제거하는데 사용되는 물질 중에서 8.1부터 8.5에 해당되지 않는 물질",
+      "parent_use_code": "8",
+      "source_ref": "별표 5 / 8.6",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "9",
+      "title_ko": "필러, 퍼티, 점토 등",
+      "title_en_original": "Fillers, putties, plasters, modelling clay",
+      "description_ko": "빈 틈이나 공간을 메꾸거나 연결하기 위하여 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 9",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "10",
+      "title_ko": "화약 및 폭발물",
+      "title_en_original": "Explosives",
+      "description_ko": "화학적 안전성이 있으나 화학적 변화를 거침으로써 폭발 또는 팽창을 동반한 다량의 에너지 및 가스를 매우 빠르게 발생시키는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 10",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "11",
+      "title_ko": "비료",
+      "title_en_original": "Fertilizers",
+      "description_ko": "식물에 영양을 주거나 식물의 재배를 돕기 위해 흙에서 화학적 변화를 가져오게 하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 11",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "12",
+      "title_ko": "연료 및 연료 첨가제",
+      "title_en_original": "Fuels and additives",
+      "description_ko": "연소반응을 통해 에너지를 얻을 수 있는 물질 및 연소 효율이나 에어지 효율을 높이기 위하여 연료에 첨가하는 물질(플라스틱 원료는 제외)",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 12",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "13",
+      "title_ko": "금속 표면 처리제",
+      "title_en_original": "Metal surface treatment products",
+      "description_ko": "금속표면의 세척 및 세정을 위해서 쓰이는 물질 및 도금공정에서 도금강도를 증가시키기 위해 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 13",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "14",
+      "title_ko": "비금속 표면 처리제",
+      "title_en_original": "Non-metal-surface treatment products",
+      "description_ko": "금속 이외의 표면의 세척 및 세정을 위해서 쓰이는 물질 및 도금공정에서 도금강도를 증가시키기 위해 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 14",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "15",
+      "title_ko": "열전달제",
+      "title_en_original": "Heat transfer fluids",
+      "description_ko": "열을 전달하고 열을 제거하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 15",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "16",
+      "title_ko": "유압유 및 첨가제",
+      "title_en_original": "Hydraulic fluids and additives",
+      "description_ko": "각종 압축기에 넣는 액체(기름)류 및 압력 전달 효율을 높이기 위해 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 16",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "17",
+      "title_ko": "잉크 및 토너",
+      "title_en_original": "Ink and toners",
+      "description_ko": "프린터나 전자복사기 등에 쓰여 영구적인 이미지 생성에 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 17",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18",
+      "title_ko": "다양한 공정 보조제(pH조절제, 응집제, 침전제, 중화제 등)",
+      "title_en_original": "Processing aids such as pH-regulators, flocculants, precipitants,  neutraization agents",
+      "description_ko": "공정의 안정성과 효율을 높이기 위하여 사용되는 각종 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 18",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.1",
+      "title_ko": "부식방지제",
+      "title_en_original": "Corrosion inhibitor",
+      "description_ko": "공기를 비롯한 화학물질, 옥외노출 등으로 생기는 부식을 방지하기 위해 첨가하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.1",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.2",
+      "title_ko": "부유제",
+      "title_en_original": "Flotation agents",
+      "description_ko": "광물질의 제련 공정 중에서 광물질을 농축ㆍ수거하기 위해 사용하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.2",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.3",
+      "title_ko": "주물용 융제",
+      "title_en_original": "Flux agents for casting",
+      "description_ko": "광물질을 녹이는 공정에서 산화물이 형성되는 것을 방지하기 위해 첨가하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.3",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.4",
+      "title_ko": "발포제 및 기포제",
+      "title_en_original": "Foaming agents",
+      "description_ko": "주로 플라스틱이나 고무 등에 첨가해서 작업공정 중 가스를 발생시켜 기포를 형성하게 하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.4",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.5",
+      "title_ko": "산화제",
+      "title_en_original": "Oxidizing agent",
+      "description_ko": "특수한 조건에서 산소를 쉽게 발생시켜 다른 물질을 산화시키는 물질, 수소를 제거하는 물질 또는 화학반응에서 전자를 쉽게 받아들이는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.5",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.6",
+      "title_ko": "pH조절제",
+      "title_en_original": "pH-regulating agents",
+      "description_ko": "수소이온농도(pH)를 조절하거나 안정화하는데 사용하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.6",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.7",
+      "title_ko": "공정속도 조절제",
+      "title_en_original": "Process regulators",
+      "description_ko": "화학반응 속도를 조절함으로써 공정속도를 제어할 목적으로 사용하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.7",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.8",
+      "title_ko": "환원제",
+      "title_en_original": "Reducing agents",
+      "description_ko": "주어진 조건에서 산소를 제거하거나 또는 화학반응에서 전자를 제공하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.8",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.9",
+      "title_ko": "안정제",
+      "title_en_original": "Stabilizers",
+      "description_ko": "제조공정이나 사용 중에 열, 빛, 산소, 오존 등에 의해서 열화가 일어나 모양, 색깔, 물성이 변하는 것을 방지할 목적으로 사용하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.9",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.10",
+      "title_ko": "계면활성제 및 표면활성제",
+      "title_en_original": "Surface-active agents",
+      "description_ko": "한 분자 내에 친수기와 소수기를 지닌 화합물로서 액체의 표면에 부착해서 표면장력을 크게 저하시켜 활성화해주는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.10",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.11",
+      "title_ko": "점도 조정제",
+      "title_en_original": "Viscosity adjusters",
+      "description_ko": "수지 등 고분자화합물을 용해한 점성재료의 농도를 안정화시켜 사용하기 쉽도록 해주는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.11",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.12",
+      "title_ko": "응집제 및 침전제",
+      "title_en_original": "Flocculants and precipitators",
+      "description_ko": "물 등의 액체에 존재하는 여러 입자를 모여서 덩어리가 되도록 하거나 덩어리로 만들어 가라앉게 하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.12",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.13",
+      "title_ko": "소포제",
+      "title_en_original": "Anti-foaming agents",
+      "description_ko": "거품의 형성을 억제하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.13",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.14",
+      "title_ko": "촉매",
+      "title_en_original": "Catalysts",
+      "description_ko": "다른 물질의 화학반응을 매개하여 반응 속도를 빠르게 하거나 늦추는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.14",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.15",
+      "title_ko": "착화제",
+      "title_en_original": "Complexing agents",
+      "description_ko": "주로 중금속 이온인 다른 물질에 배위자(配位子)로서 배위되어 착물(복합체)을 형성하는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.15",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "18.16",
+      "title_ko": "기타 공정 보조제",
+      "title_en_original": "Other processing aids",
+      "description_ko": "공정의 안정성과 효율을 높이기 위하여 사용되는 각종 물질로서 PC18.1부터 PC18.16에 해당하지 않는 물질",
+      "parent_use_code": "18",
+      "source_ref": "별표 5 / 18.16",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "19",
+      "title_ko": "실험용 화학물질(시약)",
+      "title_en_original": "Laboratory chemicals",
+      "description_ko": "실험실에서 기기분석 등에 사용되는 화학물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 19",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "20",
+      "title_ko": "가죽 처리제",
+      "title_en_original": "Leather treatment products",
+      "description_ko": "가죽을 부드럽게 하는 등 다양한 목적을 위하여 가죽처리에 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 20",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "21",
+      "title_ko": "윤활용제품",
+      "title_en_original": "Lubricants, greases, release products",
+      "description_ko": "기계의 마찰 부분의 발열이나 마모를 방지하거나 탈부착을 원활하게 하기 위해 사용되는 기름",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 21",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "21.1",
+      "title_ko": "윤활유",
+      "title_en_original": "Lubracants",
+      "description_ko": "기계의 마찰 부분의 발열이나 마모를 방지하기 위해 사용되는 기름",
+      "parent_use_code": "21",
+      "source_ref": "별표 5 / 21.1",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "21.2",
+      "title_ko": "그리스",
+      "title_en_original": "Grease",
+      "description_ko": "기계의 마찰 부분의 발열이나 마모를 방지하기 위해 사용되는 점도가 높은 기름",
+      "parent_use_code": "21",
+      "source_ref": "별표 5 / 21.2",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "21.3",
+      "title_ko": "이형제",
+      "title_en_original": "Release agents",
+      "description_ko": "성형품을 거푸집으로부터 꺼낼 때 벗겨지기 쉽게하는 등 탈부착이 용이하도록 바르는 액체",
+      "parent_use_code": "21",
+      "source_ref": "별표 5 / 21.3",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "21.4",
+      "title_ko": "기타 윤활용 제품",
+      "title_en_original": "Other lubricants",
+      "description_ko": "기계의 마찰 부분의 발열이나 마모를 방지하거나 탈부착을 원활하게 하기 위해 사용되는 기름류 중에서 21.1부터 21.3에 해당하지 않는 물질",
+      "parent_use_code": "21",
+      "source_ref": "별표 5 / 21.4",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22",
+      "title_ko": "금속 가공유",
+      "title_en_original": "Metal working fluids(MWFs)",
+      "description_ko": "금속재료의 천공, 절삭, 연마 등을 할 때 발생하는 마찰 저항과 온도 및 금속찌꺼기의 제거 등을 목적으로 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 22",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22.1",
+      "title_ko": "수용성 및 합성 금속가공유",
+      "title_en_original": "Soluble and synthetic MWFs",
+      "description_ko": "원유에서 정제한 윤활기유가 없거나 일부 있더라도 물과 섞이도록 만든 금속가공유",
+      "parent_use_code": "22",
+      "source_ref": "별표 5 / 22.1",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22.2",
+      "title_ko": "비수용성 금속가공유",
+      "title_en_original": "Insoluble MWFs",
+      "description_ko": "원유에서 정제한 윤활기유가 주성분인 금속가공유로서 물이 함유되지 않은 것",
+      "parent_use_code": "22",
+      "source_ref": "별표 5 / 22.2",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22.3",
+      "title_ko": "프레스오일 등 포밍유",
+      "title_en_original": "Forming oil",
+      "description_ko": "프레스 등 막대한 압력을 가해지는 금속가공으로부터 장비와 모재를 보호하기 위한 금속가공유",
+      "parent_use_code": "22",
+      "source_ref": "별표 5 / 22.3",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22.4",
+      "title_ko": "방청유",
+      "title_en_original": "Anti-rust oil",
+      "description_ko": "금속의 가공 전후에 녹으로부터 보호하기 위하여 사용하는 물질",
+      "parent_use_code": "22",
+      "source_ref": "별표 5 / 22.4",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "22.5",
+      "title_ko": "기타 금속 가공유",
+      "title_en_original": "Other MWFs",
+      "description_ko": "금속가공유 중에서 22.1부터 22.4에 해당하지 않는 물질",
+      "parent_use_code": "22",
+      "source_ref": "별표 5 / 22.5",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "23",
+      "title_ko": "종이 및 보드 처리제",
+      "title_en_original": "Paper and board treatment products",
+      "description_ko": "종이 등의 제조 과정에서 사용되는 각종 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 23",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "24",
+      "title_ko": "식물보호제(농약)",
+      "title_en_original": "Plant protection products",
+      "description_ko": "농작물을 균, 곤충, 응애, 선충, 바이러스, 잡초, 그 밖의 병해충으로부터 방제하는데 사용하는 물질. 다만, 비료는 제외한다.",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 24",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "25",
+      "title_ko": "향수 및 향료",
+      "title_en_original": "Perfumes, fragrances",
+      "description_ko": "향을 내는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 25",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "26",
+      "title_ko": "의약품",
+      "title_en_original": "Pharmaceuticals",
+      "description_ko": "병의 치료나 증상의 완화 등을 목적으로 의료에 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 26",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "27",
+      "title_ko": "광화학제품",
+      "title_en_original": "Photo-chemicals",
+      "description_ko": "영구적인 사진 이미지를 만드는 데 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 27",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "28",
+      "title_ko": "광택제 및 왁스",
+      "title_en_original": "Polishes and wax blends",
+      "description_ko": "표면의 윤기를 내기 위하여 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 28",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "29",
+      "title_ko": "폴리머(고무 및 플라스틱) 재료(단량체 제외)",
+      "title_en_original": "Polymer preparations and compounds",
+      "description_ko": "플라스틱과 고무를 제조하는데 사용되는 원료 및 첨가제 중 단량체물질을 제외한 모든 제품(플라스틱 및 고무제품에 사용되는 세척제나 이형제는 제외)",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 29",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "30",
+      "title_ko": "반도체",
+      "title_en_original": "Semiconductors",
+      "description_ko": "규소단결정체처럼 절연체와 금속의 중간 정도의 전기저항을 갖는 물질로서 빛, 열 또는 전자기장에 의해 기전력을 발생하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 30",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "31",
+      "title_ko": "섬유용 염료 등 섬유 처리제",
+      "title_en_original": "Textile dyes and impregnating products",
+      "description_ko": "섬유에 색을 입히거나 섬유의 질을 개선하기 위해 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 31",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "32",
+      "title_ko": "세정 및 세척제",
+      "title_en_original": "Washing and cleaning products",
+      "description_ko": "표면의 오염을 제거하는데 사용되는 액체로서 물이나 용제를 포함",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 32",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "33",
+      "title_ko": "경수 연화제",
+      "title_en_original": "Water softeners",
+      "description_ko": "물 속의 칼슘이나 마그네슘 등을 제거하여 경수를 연수로 변화시키는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 33",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "34",
+      "title_ko": "수처리제",
+      "title_en_original": "Water treatment chemicals",
+      "description_ko": "오염된 물을 정수 또는 소독하기 위하여 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 34",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "35",
+      "title_ko": "용접 납땜 재료 및 플럭스",
+      "title_en_original": "Welding and soldering products, flux products",
+      "description_ko": "금속류의 용접 및 납땜질을 할 때 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 35",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "36",
+      "title_ko": "화장품 및 개인위생용품",
+      "title_en_original": "Cosmetics, personal care products",
+      "description_ko": "인체를 청결 미화하는 등의 목적으로 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 36",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "37",
+      "title_ko": "용제 및 추출제",
+      "title_en_original": "Solvent and extraction agents",
+      "description_ko": "녹이거나 희석시키거나 추출, 탈지를 위해 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 37",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "38",
+      "title_ko": "배터리 전해제",
+      "title_en_original": "Electrolytes for batteries",
+      "description_ko": "배터리의 전기 전달을 돕는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 38",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "39",
+      "title_ko": "색소",
+      "title_en_original": "Coloring agent",
+      "description_ko": "페인트나 잉크 등의 색을 내는 데 사용되는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 39",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "40",
+      "title_ko": "단열재 및 건축용 재료",
+      "title_en_original": "Construction materials",
+      "description_ko": "열의 소실을 막기 위하여 사용되는 재료 등 건축에 사용되는 재료",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 40",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "41",
+      "title_ko": "전기 절연제",
+      "title_en_original": "Insulating materials",
+      "description_ko": "전기가 통하지 않도록 차단하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 41",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "42",
+      "title_ko": "에어로졸 추진체",
+      "title_en_original": "Propellant",
+      "description_ko": "압축가스 또는 액화가스로서 용기에서 가스를 분사함으로써 내용물을 분출시키는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 42",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "43",
+      "title_ko": "응축방지제",
+      "title_en_original": "Condensation inhibitor",
+      "description_ko": "물체의 표면에서 액체가 응축되는 것을 방지할 목적으로 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 43",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "44",
+      "title_ko": "접착방지제",
+      "title_en_original": "Anti-adhesive agents",
+      "description_ko": "두 개체 접촉면의 접착을 방지할 목적으로 사용하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 44",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "45",
+      "title_ko": "정전기방지제",
+      "title_en_original": "Anti-static agents",
+      "description_ko": "정전기 발생을 방지하거나 저감하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 45",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "46",
+      "title_ko": "분진결합제",
+      "title_en_original": "Dust binding agents",
+      "description_ko": "분진의 발생ㆍ분산을 방지하기 위해 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 46",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "47",
+      "title_ko": "식품 및 식품첨가물",
+      "title_en_original": "Food and food additives",
+      "description_ko": "식품(의약으로 섭취하는 것은 제외한다) 및 식품을 제조ㆍ가공 또는 보존하는 과정에서 식품에 넣거나 첨가하는 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 47",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    },
+    {
+      "use_code": "48",
+      "title_ko": "기타",
+      "title_en_original": "Others",
+      "description_ko": "1부터 47에 해당하지 않는 그 밖의 물질",
+      "parent_use_code": null,
+      "source_ref": "별표 5 / 48",
+      "legal_function": "Product-use classification under Article 11, NOT a standalone SDS exemption",
+      "requires_human_review_for_ambiguous_product_use": true
+    }
+  ]
+}
