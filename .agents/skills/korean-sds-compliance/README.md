@@ -1,5 +1,10 @@
 # Korean SDS Compliance Skill for Gemini 4 Hydrogen
 
+> **Primary focus: South Korean regulatory requirements.** This skill checks the Industrial Safety and Health Act / enforcement rules and the Korean Ministry of Employment and Labor notice, including Korean-language MSDS, 16-section annex fields, submission evidence, Korean ingredient and confidentiality rules, and Korean warning labels. GHS science supports the Korean criteria; foreign OSHA/CLP obligations are not the review baseline.
+
+**Korea-first playbook:** [`references/korea-first-requirements.md`](references/korea-first-requirements.md). **Machine-readable priority matrix:** [`assets/korean-requirement-matrix.json`](assets/korean-requirement-matrix.json), 12 modules covering all 60 existing regulatory rule IDs exactly once.
+
+
 This is a reusable, **evidence-first preliminary Korean SDS/MSDS review skill** built using the open Agent Skills `SKILL.md` format. It works in Google Antigravity or Gemini CLI when installed at the repository's `.agents/skills/` path; the `SKILL.md` can also be imported into a supported Gemini Skills interface.
 
 **Main skill:** [`SKILL.md`](SKILL.md)  
