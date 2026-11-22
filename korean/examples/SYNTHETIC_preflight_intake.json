@@ -1,0 +1,50 @@
+{
+  "document_id": "SYNTHETIC-PREFLIGHT-001",
+  "notice_basis": "2026-26",
+  "review_scope": "SDS_DOCUMENT_ONLY",
+  "product": {
+    "name": "Synthetic demonstration mixture (not a real substance)",
+    "is_mixture": true,
+    "is_submission_context": true,
+    "annex_5_use_codes": [
+      "8.1"
+    ]
+  },
+  "sds": {
+    "language": "ko",
+    "extraction_complete": false,
+    "sections": [
+      {
+        "number": 1,
+        "heading_ko": "화학제품과 회사에 관한 정보",
+        "text": "가상 문서: 예시 제품"
+      }
+    ],
+    "section_fields": [
+      {
+        "field_id": "KR-A4-S01-가",
+        "section_no": 1,
+        "source_text": "가상 예시 제품",
+        "source_page": "1"
+      }
+    ]
+  },
+  "components": [
+    {
+      "chemical_name": "SYNTHETIC PLACEHOLDER — not an actual chemical",
+      "actual_pct": 0.1,
+      "confirmed_hazard_categories": [
+        {
+          "hazard_name_ko": "생식세포 변이원성",
+          "category": "1A",
+          "classification_source": "SYNTHETIC FIXTURE ONLY"
+        }
+      ]
+    }
+  ],
+  "msds_submission": {
+    "submission_number": "SYNTHETIC-NOT-REAL",
+    "document_number_on_first_page": null
+  },
+  "reviewer_notes": "DEMONSTRATION ONLY. All classifications, percentages and codes are synthetic."
+}
