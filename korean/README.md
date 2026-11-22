@@ -5,6 +5,14 @@
 
 This directory provides Korean legal source text, bilingual review rules, a retrieval index, a review prompt, and JSON contracts for preliminary Korean Safety Data Sheet (SDS/MSDS) compliance evaluation.
 
+## Gemini 4 Hydrogen Agent Skill
+
+A reusable Korean SDS review skill is included at [`.agents/skills/korean-sds-compliance/SKILL.md`](../.agents/skills/korean-sds-compliance/SKILL.md). It uses the current `korean/` data, rather than duplicating or silently replacing legal sources.
+
+From the repository root in Gemini CLI or Google Antigravity, use the compatible workspace skill. For Gemini CLI: `/skills reload` then `/skills list`. Installation, security and prompt examples are in the [skill README](../.agents/skills/korean-sds-compliance/README.md).
+
+Run the read-only source check with `python .agents/skills/korean-sds-compliance/scripts/check_sources.py --kb korean`. A successful structural check is **not** legal compliance certification; all HWP source-layout and version limitations still apply.
+
 ## Start here
 
 For a simple LLM workflow, use **`SINGLE_FILE_LLM_KNOWLEDGE_BASE.md`** with the **complete Annexes 1–7 reference collection** in [`annexes/`](annexes/README.md). The single-file version preserves the main-body notice only; detailed Annex tables and structured rules reside in `annexes/`.
