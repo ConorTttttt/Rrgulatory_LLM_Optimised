@@ -23,14 +23,16 @@ def read_jsonl(path: Path) -> list[dict]:
 
 
 def find_kb(argument: str | None) -> Path:
-    paths = [argument, os.environ.get("KOREAN_SDS_KB"),
-             str(Path.cwd() / "korean"),
-             str(Path(__file__).resolve().parents[4] / "korean")]
-    for value in paths:
-        if value and (Path(value).expanduser() / "annexes").is_dir():
-            return Path(value).expanduser().resolve()
-    # Preserve explicit user-selected path for the diagnostic.
-    return Path(argument or paths[2]).expanduser().resolve()
+    if argument:
+        return Path(argument).expanduser().resolve()
+    env = os.environ.get("KOREAN_SDS_KB")
+    if env:
+        return Path(env).expanduser().resolve()
+    for path in [Path.cwd() / "korean",
+                 Path(__file__).resolve().parents[4] / "korean"]:
+        if (path / "annexes").is_dir():
+            return path.resolve()
+    return (Path.cwd() / "korean").resolve()
 
 
 def check(kb: Path) -> dict:
