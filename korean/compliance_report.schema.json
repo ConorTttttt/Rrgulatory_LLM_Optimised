@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:korean-sds:2026-26:report",
+  "title": "Evidence-based Korean SDS compliance report",
+  "type": "object",
+  "properties": {
+    "document_id": {
+      "type": "string"
+    },
+    "review_basis": {
+      "type": "string"
+    },
+    "scope_result": {
+      "type": "string",
+      "enum": [
+        "IN_SCOPE",
+        "OUT_OF_SCOPE",
+        "UNCERTAIN"
+      ]
+    },
+    "overall_status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "NEEDS_REVIEW",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "sds_document_status": {
+      "type": "string",
+      "enum": [
+        "PASS",
+        "FAIL",
+        "NEEDS_REVIEW",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "summary_ko": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rule_id",
+          "status",
+          "source_refs",
+          "evidence",
+          "reason_ko",
+          "action_ko"
+        ],
+        "properties": {
+          "rule_id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NEEDS_REVIEW",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sds_page_or_section": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "reason_ko": {
+            "type": "string"
+          },
+          "action_ko": {
+            "type": "string"
+          },
+          "missing_dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "missing_inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "annexes_not_provided": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "external_law_validation_required": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_scope_limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "document_id",
+    "review_basis",
+    "scope_result",
+    "overall_status",
+    "sds_document_status",
+    "summary_ko",
+    "findings",
+    "missing_inputs",
+    "annexes_not_provided",
+    "external_law_validation_required",
+    "review_scope_limitations"
+  ]
+}
