@@ -2,6 +2,16 @@
 
 The objective is an **auditable preliminary report**. Do not treat a file conversion or script run as compliance certification.
 
+## Korean-law gate (required before generic SDS screening)
+
+Use `korea-first-requirements.md` to select a precise Korean module from the 12-module matrix (`assets/korean-requirement-matrix.json`). Default to **SDS_DOCUMENT_ONLY** rather than assuming label, distribution or workplace evidence was provided. **Do not run a foreign OSHA or CLP checklist as a substitute for Korean industrial safety law.**
+
+Before looking at generic GHS scientific data, determine: (a) whether a Korean SDS is required and applicable exclusions, (b) which Korean-language and Annex 4 subsection requirements apply, (c) whether an official MSDS submission is in scope, (d) Korean Article 11 ingredient/alternative-approval conditions, and (e) Korean Section 15 statutory list applicability. Add physical Korean warning labels if actual label evidence is available or if requested.
+
+Use the notice's effective date and the SDS creation/revision date. Check historical amendments and transitions **per amendment**, rather than importing an earlier transitional clause as if it were a new 2026 provision.
+
+
+
 ## A. Intake
 
 1. Record `document_id`, original file, language, creation/revision dates, and whether the product SDS is Korean or translated.
