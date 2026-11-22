@@ -63,6 +63,26 @@
             "boolean",
             "null"
           ]
+        },
+        "annex_5_use_codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+(?:\\.\\d+)?$"
+          },
+          "description": "Annex 5 category codes selected with product-use evidence; codes do not themselves imply an SDS exemption."
+        },
+        "is_submission_context": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "manufacturer_or_importer_role": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -129,6 +149,51 @@
             "string",
             "null"
           ]
+        },
+        "section_fields": {
+          "type": "array",
+          "description": "Source-anchored field extraction using annex_4_sds_field_requirements.json field_id values. Extracted text is evidence, not legal validation.",
+          "items": {
+            "type": "object",
+            "required": [
+              "field_id",
+              "source_text"
+            ],
+            "properties": {
+              "field_id": {
+                "type": "string",
+                "pattern": "^KR-A4-S\\d{2}-"
+              },
+              "section_no": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 16
+              },
+              "source_text": {
+                "type": "string"
+              },
+              "source_page": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_span": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "extraction_confidence": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
         }
       }
     },
@@ -190,6 +255,40 @@
               "string",
               "null"
             ]
+          },
+          "confirmed_hazard_categories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "hazard_name_ko": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "classification_source": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "annex_6_omission_claim": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "applicable_disclosure_threshold_percent": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
           }
         }
       }
@@ -267,6 +366,50 @@
         "string",
         "null"
       ]
+    },
+    "msds_submission": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "submission_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "government_submission_confirmed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "document_number_on_first_page": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "first_page_number_position": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authorised_exemption_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "authority_confirmation_evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
     }
   },
   "required": [
