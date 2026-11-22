@@ -1,0 +1,379 @@
+{
+  "version": "1.0.0",
+  "purpose": "Korea-first routing matrix for Korean SDS-specific requirements; not an independent legal authority.",
+  "regulation_basis": "고용노동부고시 제2026-26호 (2026-04-24)",
+  "notice_version_alignment": "Main body source is supplied and independently indexed in the official registry; uploaded annex HWP revision alignment and layout are not independently fully verified.",
+  "scope_policy": "Default to SDS_DOCUMENT_ONLY; request extra evidence for labels, submission, distribution, workplace or government decisions.",
+  "rule_count": 60,
+  "module_count": 12,
+  "source_refs": [
+    "korean/compliance_rules_en_ko.json",
+    "korean/annexes/annex_4_sds_field_requirements.json",
+    "korean/annexes/annex_sources_manifest.json"
+  ],
+  "modules": [
+    {
+      "module_id": "KR-01",
+      "priority": "P0",
+      "name_ko": "적용대상 및 적용제외",
+      "name_en": "Applicability and exclusions",
+      "legal_refs": [
+        "제3조",
+        "제19조",
+        "산업안전보건법 제110조",
+        "산업안전보건법 시행령 제86조"
+      ],
+      "rule_ids": [
+        "SCOPE-001",
+        "SCOPE-002",
+        "SCOPE-003",
+        "SCOPE-004",
+        "RND-001"
+      ],
+      "review_boundary": "ALL",
+      "evidence": [
+        "product_type",
+        "manufacture_import_supply_role",
+        "workplace_exposure",
+        "research_and_development_context",
+        "documented_exemption_basis"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법",
+        "시행령 제86조"
+      ]
+    },
+    {
+      "module_id": "KR-02",
+      "priority": "P0",
+      "name_ko": "국문 작성 및 번역",
+      "name_en": "Korean language, translation and permitted foreign terms",
+      "legal_refs": [
+        "제11조제1항",
+        "제11조제2항",
+        "제11조제4항"
+      ],
+      "rule_ids": [
+        "SDS-003",
+        "SDS-004",
+        "SDS-005"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "section_language",
+        "translation_origin",
+        "original_author",
+        "original_date",
+        "research_reagent_status"
+      ],
+      "outside_law_needed": []
+    },
+    {
+      "module_id": "KR-03",
+      "priority": "P0",
+      "name_ko": "16개 작성항목 및 기재사항",
+      "name_en": "Korean 16-section contents and missing-data rules",
+      "legal_refs": [
+        "제10조제1항",
+        "제10조제2항",
+        "제11조제7항",
+        "제11조제12항",
+        "별표 4"
+      ],
+      "rule_ids": [
+        "SDS-001",
+        "SDS-002",
+        "SDS-006",
+        "SDS-011"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "sds_full_pages",
+        "section_order",
+        "97_annex4_fields",
+        "자료 없음_justification",
+        "해당 없음_justification",
+        "revision_history"
+      ],
+      "outside_law_needed": [
+        "Applicable prior revisions for older SDS"
+      ]
+    },
+    {
+      "module_id": "KR-04",
+      "priority": "P0",
+      "name_ko": "MSDS 제출 및 제출번호·용도",
+      "name_en": "Korean SDS submission context, number and use codes",
+      "legal_refs": [
+        "산업안전보건법 제110조",
+        "별표 4 MSDS 번호",
+        "제11조제8항",
+        "별표 5"
+      ],
+      "rule_ids": [
+        "SDS-007"
+      ],
+      "review_boundary": "SDS_AND_SUBMISSION",
+      "evidence": [
+        "manufacturer_importer_role",
+        "government_submission_record",
+        "msds_number",
+        "page1_layout",
+        "selected_annex5_use_codes"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 제110조",
+        "산업안전보건법 시행규칙 제156조부터 제171조"
+      ],
+      "not_covered_by_60_base_rules": [
+        "submission obligation and MSDS-number validation beyond Annex 4 placement"
+      ]
+    },
+    {
+      "module_id": "KR-05",
+      "priority": "P0",
+      "name_ko": "함유량 및 한계농도",
+      "name_en": "Ingredient percentages, omission thresholds and normal concentration ranges",
+      "legal_refs": [
+        "제11조제9항",
+        "제11조제10항",
+        "별표 6",
+        "시행규칙 별표 18"
+      ],
+      "rule_ids": [
+        "SDS-008",
+        "SDS-009"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "verified_ingredient_hazards",
+        "actual_concentrations_or_ranges",
+        "information_omission_claims",
+        "whole_mixture_hazards"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 시행규칙 별표 18"
+      ]
+    },
+    {
+      "module_id": "KR-06",
+      "priority": "P0",
+      "name_ko": "대체자료 기재승인",
+      "name_en": "Trade-secret alternative disclosure and approval",
+      "legal_refs": [
+        "제16조",
+        "제17조",
+        "제18조",
+        "제20조",
+        "별표 7",
+        "산업안전보건법 제112조"
+      ],
+      "rule_ids": [
+        "CBI-001",
+        "CBI-002",
+        "CBI-003",
+        "CBI-004",
+        "CBI-005",
+        "CBI-006",
+        "CBI-007",
+        "CBI-008"
+      ],
+      "review_boundary": "SDS_AND_AUTHORITY_EVIDENCE",
+      "evidence": [
+        "authority_decision",
+        "approval_number_and_period",
+        "approved_alternative_name",
+        "approved_concentration_range",
+        "exclusion_screen",
+        "official_notification_date"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 제112조",
+        "고시에서 인용하는 환경부 고시 및 공단 방법"
+      ]
+    },
+    {
+      "module_id": "KR-07",
+      "priority": "P0",
+      "name_ko": "국문 경고표지",
+      "name_en": "Korean label statements, pictograms, sizes, colours and exceptions",
+      "legal_refs": [
+        "제5조",
+        "제6조",
+        "제6조의2",
+        "제7조",
+        "제8조",
+        "별표 2",
+        "별표 3"
+      ],
+      "rule_ids": [
+        "LABEL-001",
+        "LABEL-002",
+        "LABEL-003",
+        "LABEL-004",
+        "LABEL-005",
+        "LABEL-006",
+        "LABEL-007",
+        "LABEL-008",
+        "LABEL-009",
+        "LABEL-010",
+        "LABEL-011",
+        "LABEL-012",
+        "LABEL-013",
+        "LABEL-014",
+        "LABEL-015",
+        "LABEL-016",
+        "LABEL-017",
+        "LABEL-018",
+        "LABEL-019",
+        "SDS-014"
+      ],
+      "review_boundary": "SDS_AND_LABEL",
+      "evidence": [
+        "physical_container_label_image",
+        "container_capacity",
+        "pictograms",
+        "hazard_statement_ko",
+        "precautionary_statement_ko",
+        "printed_dimensions"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 시행규칙 별표 18"
+      ]
+    },
+    {
+      "module_id": "KR-08",
+      "priority": "P1",
+      "name_ko": "혼합물 분류 및 대표 MSDS",
+      "name_en": "Korean mixture and representative SDS provisions",
+      "legal_refs": [
+        "제4조",
+        "제12조",
+        "별표 1"
+      ],
+      "rule_ids": [
+        "CLASS-001",
+        "CLASS-002",
+        "MIX-001",
+        "MIX-002",
+        "MIX-003",
+        "MIX-004"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "whole_mixture_tests",
+        "bridging_evidence",
+        "component_test_data",
+        "product_group_compositions",
+        "comparative_hazard_categories"
+      ],
+      "outside_law_needed": [
+        "시행규칙 별표 18",
+        "Referenced UN GHS testing guidance where applicable"
+      ]
+    },
+    {
+      "module_id": "KR-09",
+      "priority": "P1",
+      "name_ko": "제15항 법적 규제현황",
+      "name_en": "Section 15 Korean regulatory status",
+      "legal_refs": [
+        "제10조제1항제15호",
+        "제11조제11항",
+        "별표 4 제15호"
+      ],
+      "rule_ids": [
+        "SDS-010"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "korean_regulatory_lists",
+        "mixture_level_legal_status",
+        "current_regulatory_status_by_law"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법",
+        "화학물질관리법",
+        "화학물질의 등록 및 평가 등에 관한 법률",
+        "위험물안전관리법",
+        "폐기물관리법"
+      ]
+    },
+    {
+      "module_id": "KR-10",
+      "priority": "P1",
+      "name_ko": "양도·제공과 서면 통지",
+      "name_en": "Korean distribution, receipt, and non-classification communication",
+      "legal_refs": [
+        "제9조",
+        "제13조"
+      ],
+      "rule_ids": [
+        "DISTR-001",
+        "DISTR-002",
+        "DISTR-003",
+        "DISTR-004",
+        "DISTR-005",
+        "DISTR-006"
+      ],
+      "review_boundary": "SUPPLIER_OPERATIONS",
+      "evidence": [
+        "sds_transmission_logs",
+        "recipient_receipt_confirmation",
+        "non_classification_letter",
+        "contractor_communication"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 제110조·제111조 및 관련 시행규칙"
+      ]
+    },
+    {
+      "module_id": "KR-11",
+      "priority": "P1",
+      "name_ko": "사업장 MSDS 접근",
+      "name_en": "Workplace electronic access and worker communication",
+      "legal_refs": [
+        "제14조",
+        "제15조"
+      ],
+      "rule_ids": [
+        "WORK-001",
+        "WORK-002"
+      ],
+      "review_boundary": "WORKPLACE_OPERATIONS",
+      "evidence": [
+        "available_workstation",
+        "training_record",
+        "worker_lookup_capability",
+        "posted_instructions"
+      ],
+      "outside_law_needed": [
+        "산업안전보건법 제114조",
+        "시행규칙 제167조·제168조"
+      ]
+    },
+    {
+      "module_id": "KR-12",
+      "priority": "P1",
+      "name_ko": "시험근거·측정단위",
+      "name_en": "Test provenance and Korean unit requirements",
+      "legal_refs": [
+        "제11조제3항",
+        "제11조제6항"
+      ],
+      "rule_ids": [
+        "SDS-012",
+        "SDS-013"
+      ],
+      "review_boundary": "SDS",
+      "evidence": [
+        "data_source_provenance",
+        "glp_kolas_evidence",
+        "units_used"
+      ],
+      "outside_law_needed": [
+        "계량에 관한 법률"
+      ]
+    }
+  ]
+}
