@@ -8,7 +8,7 @@ This playbook specifies **Korean legal checks**. Generic GHS scientific classifi
 
 **Primary Korean hierarchy:**
 1. 산업안전보건법 (Industrial Safety and Health Act), particularly the applicable provisions governing MSDS preparation, submission, confidentiality and communication.
-2. 산업안전보건법 시행령 and 시행규칙, including its relevant **별표 18** and provisions on MSDS filings and workplace obligations.
+2. 산업안전보건법 시행령 and **산업안전보건법 시행규칙**, including the latter's relevant **별표 18** and provisions on MSDS filings and workplace obligations.
 3. **고용노동부고시 제2026-26호 (시행 2026-04-24)**, the user-supplied main-body document.
 4. Uploaded **별표 1–7** with the source manifest; do not silently assume annex artwork, formulas or version alignment is independently certified.
 5. Government acceptance/approval records, Korean technical classifications, and actual product evidence.
