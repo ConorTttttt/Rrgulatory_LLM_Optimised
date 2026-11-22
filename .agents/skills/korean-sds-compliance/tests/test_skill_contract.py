@@ -41,6 +41,41 @@ class KoreanSdsSkillTests(unittest.TestCase):
             self.assertFalse(report["legal_compliance_determined"])
             self.assertTrue(report["errors"])
 
+    def test_korean_specific_priority_matrix(self):
+        text = (SKILL / "SKILL.md").read_text(encoding="utf-8")
+        self.assertIn("Korea-first routing", text)
+        self.assertIn("korea-first-requirements.md", text)
+        self.assertIn("korean-requirement-matrix.json", text)
+        self.assertIn("Article 11", text)
+        self.assertIn("NOT_ASSESSED", text)
+
+        policy = (SKILL / "references" / "korea-first-requirements.md")
+        self.assertTrue(policy.is_file())
+        wording = policy.read_text(encoding="utf-8")
+        for korean_term in ["산업안전보건법", "별표 4", "별표 5", "별표 6", "대체자료", "제출번호"]:
+            self.assertIn(korean_term, wording)
+
+        matrix = json.loads((SKILL / "assets" / "korean-requirement-matrix.json")
+                            .read_text(encoding="utf-8"))
+        self.assertEqual(matrix["module_count"], 12)
+        self.assertEqual(matrix["rule_count"], 60)
+        modules = matrix["modules"]
+        self.assertEqual(len(modules), 12)
+        self.assertEqual([m["module_id"] for m in modules],
+                         [f"KR-{i:02d}" for i in range(1, 13)])
+        ids = [rid for module in modules for rid in module["rule_ids"]]
+        self.assertEqual(len(ids), 60)
+        self.assertEqual(len(set(ids)), 60)
+        self.assertTrue(all(m["legal_refs"] and m["evidence"] for m in modules))
+        self.assertEqual(len([m for m in modules if m["priority"] == "P0"]), 7)
+
+        kb = ROOT / "korean"
+        rule_file = kb / "compliance_rules_en_ko.json"
+        if rule_file.is_file():
+            sources = json.loads(rule_file.read_text(encoding="utf-8"))
+            actual_ids = {r["rule_id"] for r in sources["rules"]}
+            self.assertEqual(actual_ids, set(ids))
+
     def test_real_repository_sources(self):
         kb = ROOT / "korean"
         if not kb.is_dir():
