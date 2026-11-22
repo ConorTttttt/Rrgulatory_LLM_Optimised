@@ -1,0 +1,1499 @@
+{
+  "metadata": {
+    "annex": "별표 4",
+    "title_ko": "물질안전보건자료(MSDS)의 작성항목 및 기재사항",
+    "related_articles": [
+      "제10조제1항",
+      "제10조제2항",
+      "제11조"
+    ],
+    "source_sha256": "302e801b2e28a24043d4e79a6ce3e287216b63b1b4c1bc65f45593fa03e47e6c",
+    "source_version_alignment": "NOT_INDEPENDENTLY_VERIFIED",
+    "source_fidelity": "Text extraction used for field inventory; original HWP table and page layout not directly checked",
+    "status": "DRAFT_REVIEW_REQUIRED",
+    "total_section_count": 16,
+    "total_field_and_subfield_count": 97,
+    "assessment_limit": "Document presence checklist, not evidence of chemical accuracy or complete statutory duties; require applicability decisions, Section 11 treatment of unavailable information, current laws and human review."
+  },
+  "layout_rules": [
+    {
+      "rule_id": "KR-A4-MSDS-NUMBER-001",
+      "source_ko": "※ MSDS 번호는 MSDS를 보는 자가 알아보기 쉽도록 MSDS 본문의 첫 쪽 상단 개별항목 외의 공간에 기재한다.",
+      "field_label": "MSDS 번호",
+      "expected_placement": "first page, upper area, outside SDS individually numbered sections, readily legible",
+      "evaluation_mode": "VISUAL_PAGE_AND_TEXT",
+      "applicability": "Check MSDS submission and exemption status under law and enforcement rules before asserting an obligation."
+    }
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "title_ko": "화학제품과 회사에 관한 정보",
+      "source_heading_ko": "1. 화학제품과 회사에 관한 정보",
+      "source_locator": "별표 4 / 1.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S01-가",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제1항 / 항목",
+          "source_text_ko": "가. 제품명(경고표지 상에 사용되는 것과 동일한 명칭 또는 분류코드를 기재한다):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S01-나",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제1항 / 항목",
+          "source_text_ko": "나. 제품의 권고 용도와 사용상의 제한:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S01-다",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제1항 / 항목",
+          "source_text_ko": "다. 공급자 정보(제조자, 수입자, 유통업자 관계없이 해당 제품의 공급 및 물질안전보건자료 작성을 책임지는 회사의 정보를 기재하되, 수입품의 경우 문의사항 발생 또는 긴급시 연락 가능한 국내 공급자 정보를 기재):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S01-다-B01",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제1항 / 세부기재사항",
+          "source_text_ko": "○ 회사명",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S01-다-B02",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제1항 / 세부기재사항",
+          "source_text_ko": "○ 주소",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S01-다-B03",
+          "section_no": 1,
+          "section_title_ko": "화학제품과 회사에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제1항 / 세부기재사항",
+          "source_text_ko": "○ 긴급전화번호",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title_ko": "유해성·위험성",
+      "source_heading_ko": "2. 유해성·위험성",
+      "source_locator": "별표 4 / 2.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S02-가",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제2항 / 항목",
+          "source_text_ko": "가. 유해성·위험성 분류",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-나",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제2항 / 항목",
+          "source_text_ko": "나. 예방조치 문구를 포함한 경고 표지 항목",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-나-B01",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제2항 / 세부기재사항",
+          "source_text_ko": "○ 그림문자",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-나-B02",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제2항 / 세부기재사항",
+          "source_text_ko": "○ 신호어",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-나-B03",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제2항 / 세부기재사항",
+          "source_text_ko": "○ 유해·위험 문구",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-나-B04",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제2항 / 세부기재사항",
+          "source_text_ko": "○ 예방조치 문구",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S02-다",
+          "section_no": 2,
+          "section_title_ko": "유해성·위험성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제2항 / 항목",
+          "source_text_ko": "다. 유해성·위험성 분류기준에 포함되지 않는 기타 유해성·위험성(예: 분진폭발 위험성) :",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title_ko": "구성성분의 명칭 및 함유량",
+      "source_heading_ko": "3. 구성성분의 명칭 및 함유량",
+      "source_locator": "별표 4 / 3.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S03-C01",
+          "section_no": 3,
+          "section_title_ko": "구성성분의 명칭 및 함유량",
+          "depth": 1,
+          "kind": "composition_column",
+          "source_locator": "별표 4 / 제3항 / 세부기재사항",
+          "source_text_ko": "화학물질명",
+          "applicability": "For applicable ingredient disclosures, consider Annex 6 thresholds and Article 11 exceptions; trade-secret substitutions require approval evidence.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S03-C02",
+          "section_no": 3,
+          "section_title_ko": "구성성분의 명칭 및 함유량",
+          "depth": 1,
+          "kind": "composition_column",
+          "source_locator": "별표 4 / 제3항 / 세부기재사항",
+          "source_text_ko": "관용명 및 이명(異名)",
+          "applicability": "For applicable ingredient disclosures, consider Annex 6 thresholds and Article 11 exceptions; trade-secret substitutions require approval evidence.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S03-C03",
+          "section_no": 3,
+          "section_title_ko": "구성성분의 명칭 및 함유량",
+          "depth": 1,
+          "kind": "composition_column",
+          "source_locator": "별표 4 / 제3항 / 세부기재사항",
+          "source_text_ko": "CAS번호 또는 식별번호",
+          "applicability": "For applicable ingredient disclosures, consider Annex 6 thresholds and Article 11 exceptions; trade-secret substitutions require approval evidence.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S03-C04",
+          "section_no": 3,
+          "section_title_ko": "구성성분의 명칭 및 함유량",
+          "depth": 1,
+          "kind": "composition_column",
+          "source_locator": "별표 4 / 제3항 / 세부기재사항",
+          "source_text_ko": "함유량(%)",
+          "applicability": "For applicable ingredient disclosures, consider Annex 6 thresholds and Article 11 exceptions; trade-secret substitutions require approval evidence.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S03-CBI",
+          "section_no": 3,
+          "section_title_ko": "구성성분의 명칭 및 함유량",
+          "depth": 1,
+          "kind": "conditional_approval_metadata",
+          "source_locator": "별표 4 / 제3항 / 세부기재사항",
+          "source_text_ko": "* 대체자료 기재 승인(부분승인) 시 승인번호 및 유효기간",
+          "applicability": "Applicable when substitute information is used under an approved or partly approved trade-secret request.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ],
+      "raw_composition_table_heading_ko": "화학물질명      관용명 및 이명(異名)    CAS번호 또는 식별번호     함유량(%)"
+    },
+    {
+      "number": 4,
+      "title_ko": "응급조치 요령",
+      "source_heading_ko": "4. 응급조치 요령",
+      "source_locator": "별표 4 / 4.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S04-가",
+          "section_no": 4,
+          "section_title_ko": "응급조치 요령",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제4항 / 항목",
+          "source_text_ko": "가. 눈에 들어갔을 때:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S04-나",
+          "section_no": 4,
+          "section_title_ko": "응급조치 요령",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제4항 / 항목",
+          "source_text_ko": "나. 피부에 접촉했을 때:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S04-다",
+          "section_no": 4,
+          "section_title_ko": "응급조치 요령",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제4항 / 항목",
+          "source_text_ko": "다. 흡입했을 때:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S04-라",
+          "section_no": 4,
+          "section_title_ko": "응급조치 요령",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제4항 / 항목",
+          "source_text_ko": "라. 먹었을 때:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S04-마",
+          "section_no": 4,
+          "section_title_ko": "응급조치 요령",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제4항 / 항목",
+          "source_text_ko": "마. 기타 의사의 주의사항:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title_ko": "폭발·화재시 대처방법",
+      "source_heading_ko": "5. 폭발·화재시 대처방법",
+      "source_locator": "별표 4 / 5.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S05-가",
+          "section_no": 5,
+          "section_title_ko": "폭발·화재시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제5항 / 항목",
+          "source_text_ko": "가.  적절한 (및 부적절한) 소화제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S05-나",
+          "section_no": 5,
+          "section_title_ko": "폭발·화재시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제5항 / 항목",
+          "source_text_ko": "나. 화학물질로부터 생기는 특정 유해성(예, 연소 시 발생 유해물질):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S05-다",
+          "section_no": 5,
+          "section_title_ko": "폭발·화재시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제5항 / 항목",
+          "source_text_ko": "다. 화재 진압 시 착용할 보호구 및 예방조치:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title_ko": "누출 사고 시 대처방법",
+      "source_heading_ko": "6. 누출 사고 시 대처방법",
+      "source_locator": "별표 4 / 6.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S06-가",
+          "section_no": 6,
+          "section_title_ko": "누출 사고 시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제6항 / 항목",
+          "source_text_ko": "가. 인체를 보호하기 위해 필요한 조치 사항 및 보호구:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S06-나",
+          "section_no": 6,
+          "section_title_ko": "누출 사고 시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제6항 / 항목",
+          "source_text_ko": "나. 환경을 보호하기 위해 필요한 조치사항:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S06-다",
+          "section_no": 6,
+          "section_title_ko": "누출 사고 시 대처방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제6항 / 항목",
+          "source_text_ko": "다. 정화 또는 제거 방법:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title_ko": "취급 및 저장방법",
+      "source_heading_ko": "7. 취급 및 저장방법",
+      "source_locator": "별표 4 / 7.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S07-가",
+          "section_no": 7,
+          "section_title_ko": "취급 및 저장방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제7항 / 항목",
+          "source_text_ko": "가. 안전취급요령:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S07-나",
+          "section_no": 7,
+          "section_title_ko": "취급 및 저장방법",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제7항 / 항목",
+          "source_text_ko": "나. 안전한 저장 방법(피해야 할 조건을 포함함):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title_ko": "노출방지 및 개인보호구",
+      "source_heading_ko": "8. 노출방지 및 개인보호구",
+      "source_locator": "별표 4 / 8.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S08-가",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제8항 / 항목",
+          "source_text_ko": "가. 화학물질의 노출기준, 생물학적 노출기준 등:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-나",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제8항 / 항목",
+          "source_text_ko": "나. 적절한 공학적 관리:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-다",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제8항 / 항목",
+          "source_text_ko": "다. 개인 보호구",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-다-B01",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제8항 / 세부기재사항",
+          "source_text_ko": "○ 호흡기 보호:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-다-B02",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제8항 / 세부기재사항",
+          "source_text_ko": "○ 눈 보호:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-다-B03",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제8항 / 세부기재사항",
+          "source_text_ko": "○ 손 보호:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S08-다-B04",
+          "section_no": 8,
+          "section_title_ko": "노출방지 및 개인보호구",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제8항 / 세부기재사항",
+          "source_text_ko": "○ 신체 보호:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title_ko": "물리화학적 특성",
+      "source_heading_ko": "9. 물리화학적 특성",
+      "source_locator": "별표 4 / 9.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S09-가",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "가. 외관(물리적 상태, 색 등):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-나",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "나. 냄새:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-다",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "다. 냄새 역치:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-라",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "라. pH:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-마",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "마. 녹는점/어는점:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-바",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "바. 초기 끓는점과 끓는점 범위:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-사",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "사. 인화점:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-아",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "아. 증발 속도",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-자",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "자. 인화성(고체, 기체)",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-차",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "차. 인화 또는 폭발 범위의 상한/하한",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-카",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "카. 증기압:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-타",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "타. 용해도:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-파",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "파. 증기밀도:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-하",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "하. 비중:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-거",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "거. n 옥탄올/물 분배계수:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-너",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "너. 자연발화 온도:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-더",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "더. 분해 온도:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-러",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "러. 점도:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S09-머",
+          "section_no": 9,
+          "section_title_ko": "물리화학적 특성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제9항 / 항목",
+          "source_text_ko": "머. 분자량",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title_ko": "안정성 및 반응성",
+      "source_heading_ko": "10. 안정성 및 반응성",
+      "source_locator": "별표 4 / 10.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S10-가",
+          "section_no": 10,
+          "section_title_ko": "안정성 및 반응성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제10항 / 항목",
+          "source_text_ko": "가. 화학적 안정성  및 유해 반응의 가능성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S10-나",
+          "section_no": 10,
+          "section_title_ko": "안정성 및 반응성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제10항 / 항목",
+          "source_text_ko": "나. 피해야 할 조건(정전기 방전, 충격, 진동 등):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S10-다",
+          "section_no": 10,
+          "section_title_ko": "안정성 및 반응성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제10항 / 항목",
+          "source_text_ko": "다. 피해야 할 물질:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S10-라",
+          "section_no": 10,
+          "section_title_ko": "안정성 및 반응성",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제10항 / 항목",
+          "source_text_ko": "라. 분해시 생성되는 유해물질:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title_ko": "독성에 관한 정보",
+      "source_heading_ko": "11. 독성에 관한 정보",
+      "source_locator": "별표 4 / 11.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S11-가",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제11항 / 항목",
+          "source_text_ko": "가. 가능성이 높은 노출 경로에 관한 정보",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제11항 / 항목",
+          "source_text_ko": "나. 건강 유해성 정보",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B01",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 급성 독성(노출 가능한 모든 경로에 대해 기재):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B02",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 피부 부식성 또는 자극성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B03",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 심한 눈 손상 또는 자극성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B04",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 호흡기 과민성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B05",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 피부 과민성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B06",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 발암성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B07",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 생식세포 변이원성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B08",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 생식독성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B09",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 특정 표적장기 독성 (1회 노출):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B10",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 특정 표적장기 독성 (반복 노출):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S11-나-B11",
+          "section_no": 11,
+          "section_title_ko": "독성에 관한 정보",
+          "depth": 2,
+          "kind": "subfield",
+          "source_locator": "별표 4 / 제11항 / 세부기재사항",
+          "source_text_ko": "○ 흡인 유해성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ],
+      "presentation_exception_ko": "※ 가.항 및 나.항을 합쳐서 노출 경로와 건강 유해성 정보를 함께 기재할 수 있음"
+    },
+    {
+      "number": 12,
+      "title_ko": "환경에 미치는 영향",
+      "source_heading_ko": "12. 환경에 미치는 영향",
+      "source_locator": "별표 4 / 12.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S12-가",
+          "section_no": 12,
+          "section_title_ko": "환경에 미치는 영향",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제12항 / 항목",
+          "source_text_ko": "가. 생태독성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S12-나",
+          "section_no": 12,
+          "section_title_ko": "환경에 미치는 영향",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제12항 / 항목",
+          "source_text_ko": "나. 잔류성 및 분해성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S12-다",
+          "section_no": 12,
+          "section_title_ko": "환경에 미치는 영향",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제12항 / 항목",
+          "source_text_ko": "다. 생물 농축성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S12-라",
+          "section_no": 12,
+          "section_title_ko": "환경에 미치는 영향",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제12항 / 항목",
+          "source_text_ko": "라. 토양 이동성:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S12-마",
+          "section_no": 12,
+          "section_title_ko": "환경에 미치는 영향",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제12항 / 항목",
+          "source_text_ko": "마. 기타 유해 영향:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title_ko": "폐기시 주의사항",
+      "source_heading_ko": "13. 폐기시 주의사항",
+      "source_locator": "별표 4 / 13.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S13-가",
+          "section_no": 13,
+          "section_title_ko": "폐기시 주의사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제13항 / 항목",
+          "source_text_ko": "가. 폐기방법:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S13-나",
+          "section_no": 13,
+          "section_title_ko": "폐기시 주의사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제13항 / 항목",
+          "source_text_ko": "나. 폐기시 주의사항(오염된 용기 및 포장의 폐기 방법을 포함함) :",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title_ko": "운송에 필요한 정보",
+      "source_heading_ko": "14. 운송에 필요한 정보",
+      "source_locator": "별표 4 / 14.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S14-가",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "가. 유엔 번호:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S14-나",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "나. 유엔 적정 선적명:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S14-다",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "다. 운송에서의 위험성 등급:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S14-라",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "라. 용기등급(해당하는 경우):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S14-마",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "마. 해양오염물질(해당 또는 비해당으로 표기):",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S14-바",
+          "section_no": 14,
+          "section_title_ko": "운송에 필요한 정보",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제14항 / 항목",
+          "source_text_ko": "바. 사용자가  운송 또는 운송 수단에 관련해 알 필요가 있거나 필요한 특별한 안전 대책:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title_ko": "법적 규제현황",
+      "source_heading_ko": "15. 법적 규제현황",
+      "source_locator": "별표 4 / 15.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S15-가",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "가. 산업안전보건법에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S15-나",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "나. 화학물질관리법에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S15-다",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "다. 화학물질의 등록 및 평가 등에 관한 법률에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S15-라",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "라. 위험물안전관리법에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S15-마",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "마. 폐기물관리법에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S15-바",
+          "section_no": 15,
+          "section_title_ko": "법적 규제현황",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제15항 / 항목",
+          "source_text_ko": "바. 기타 국내 및 외국법에 의한 규제:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title_ko": "그 밖의 참고사항",
+      "source_heading_ko": "16. 그 밖의 참고사항",
+      "source_locator": "별표 4 / 16.",
+      "fields": [
+        {
+          "field_id": "KR-A4-S16-가",
+          "section_no": 16,
+          "section_title_ko": "그 밖의 참고사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제16항 / 항목",
+          "source_text_ko": "가. 자료의 출처:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S16-나",
+          "section_no": 16,
+          "section_title_ko": "그 밖의 참고사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제16항 / 항목",
+          "source_text_ko": "나. 최초 작성일자:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S16-다",
+          "section_no": 16,
+          "section_title_ko": "그 밖의 참고사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제16항 / 항목",
+          "source_text_ko": "다. 개정 횟수 및 최종 개정일자:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        },
+        {
+          "field_id": "KR-A4-S16-라",
+          "section_no": 16,
+          "section_title_ko": "그 밖의 참고사항",
+          "depth": 1,
+          "kind": "section_field",
+          "source_locator": "별표 4 / 제16항 / 항목",
+          "source_text_ko": "라. 기타:",
+          "applicability": "Review whether applicable and whether omission is permitted under Article 11 and cross-referenced provisions.",
+          "assessment_method": "CONTENT_AND_APPLICABILITY_REVIEW",
+          "mandatory_field_assessment": "Examine source field, supplied SDS evidence and justified unavailability/inapplicability; never fail solely due to absent value without regulatory applicability and Article 11 review.",
+          "requires_page_and_text_evidence": true
+        }
+      ]
+    }
+  ],
+  "cross_checks": [
+    {
+      "check_id": "KR-A4-XREF-01",
+      "sections": [
+        1
+      ],
+      "check": "Product name consistent with warning label",
+      "source_text_ko": "가. 제품명(경고표지 상에 사용되는 것과 동일한 명칭 또는 분류코드를 기재한다):",
+      "method": "COMPARE_DOCUMENTS"
+    },
+    {
+      "check_id": "KR-A4-XREF-02",
+      "sections": [
+        1
+      ],
+      "check": "Domestic supplier contact for imported product",
+      "source_text_ko": "다. 공급자 정보(제조자, 수입자, 유통업자 관계없이 해당 제품의 공급 및 물질안전보건자료 작성을 책임지는 회사의 정보를 기재하되, 수입품의 경우 문의사항 발생 또는 긴급시 연락 가능한 국내 공급자 정보를 기재):",
+      "method": "REQUIRE_CONTEXT"
+    },
+    {
+      "check_id": "KR-A4-XREF-03",
+      "sections": [
+        2,
+        3
+      ],
+      "check": "Hazard classification and constituent declarations reasonably align",
+      "source_text_ko": "2. 유해성·위험성; 3. 구성성분의 명칭 및 함유량",
+      "method": "TECHNICAL_REVIEW"
+    },
+    {
+      "check_id": "KR-A4-XREF-04",
+      "sections": [
+        3
+      ],
+      "check": "Approved substitute disclosure includes approval number and validity period when applicable",
+      "source_text_ko": "* 대체자료 기재 승인(부분승인) 시 승인번호 및 유효기간",
+      "method": "CHECK_AUTHORITY_DOCUMENT"
+    },
+    {
+      "check_id": "KR-A4-XREF-05",
+      "sections": [
+        2,
+        9
+      ],
+      "check": "Section 2 classification consistent with physical hazard data (e.g. flash point)",
+      "source_text_ko": "2. 유해성·위험성; 9. 물리화학적 특성",
+      "method": "TECHNICAL_REVIEW"
+    },
+    {
+      "check_id": "KR-A4-XREF-06",
+      "sections": [
+        2,
+        11,
+        12
+      ],
+      "check": "Declared health/environment hazards consistent with toxicological/ecotoxicological evidence",
+      "source_text_ko": "2. 유해성·위험성; 11. 독성에 관한 정보; 12. 환경에 미치는 영향",
+      "method": "TECHNICAL_REVIEW"
+    },
+    {
+      "check_id": "KR-A4-XREF-07",
+      "sections": [
+        14
+      ],
+      "check": "Marine pollutant status explicitly stated as applicable or non-applicable",
+      "source_text_ko": "마. 해양오염물질(해당 또는 비해당으로 표기):",
+      "method": "TEXT_VALUE"
+    },
+    {
+      "check_id": "KR-A4-XREF-08",
+      "sections": [
+        16
+      ],
+      "check": "Original preparation date and revision count/date recorded or appropriately explained",
+      "source_text_ko": "나. 최초 작성일자; 다. 개정 횟수 및 최종 개정일자",
+      "method": "TEXT_AND_DATE"
+    }
+  ]
+}
