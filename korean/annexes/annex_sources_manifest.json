@@ -40,15 +40,42 @@
       "ready_for_final_compliance_verdict": false
     },
     "4": {
-      "status": "NOT_UPLOADED",
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "물질안전보건자료(MSDS)의 작성항목 및 기재사항",
+      "original_hwp_sha256": "302e801b2e28a24043d4e79a6ce3e287216b63b1b4c1bc65f45593fa03e47e6c",
+      "bytes": 50176,
+      "source_text_lines": 251,
+      "extracted_text": "annex_4.extracted_ko.txt",
+      "rag_chunks": "annex_4_rag_chunks.jsonl",
+      "machine_readable_reference": "annex_4_sds_field_requirements.json",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
       "ready_for_final_compliance_verdict": false
     },
     "5": {
-      "status": "NOT_UPLOADED",
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "용도분류체계",
+      "original_hwp_sha256": "557ad609d9489416896209e42ea7807cec9837e76b3badbee3515d094d5c3c55",
+      "bytes": 67072,
+      "source_text_lines": 663,
+      "extracted_text": "annex_5.extracted_ko.txt",
+      "rag_chunks": "annex_5_rag_chunks.jsonl",
+      "machine_readable_reference": "annex_5_use_categories.json",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
       "ready_for_final_compliance_verdict": false
     },
     "6": {
-      "status": "NOT_UPLOADED",
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "건강 및 환경 유해성 분류에 대한 한계농도 기준",
+      "original_hwp_sha256": "a36eae87c67771757e2d999d100de9ff8927afd2f208fd69502d5e7c0b541321",
+      "bytes": 34304,
+      "source_text_lines": 93,
+      "extracted_text": "annex_6.extracted_ko.txt",
+      "rag_chunks": "annex_6_rag_chunks.jsonl",
+      "machine_readable_reference": "annex_6_concentration_limits.json",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
       "ready_for_final_compliance_verdict": false
     },
     "7": {
@@ -69,5 +96,14 @@
     "This is a partial technical extraction, not a complete or legally verified translation.",
     "Annexes 4,5,6 remain unavailable; detailed SDS section-field completeness cannot yet be validated.",
     "No legal-regulatory PASS determination should rely solely on these draft annex extracts."
+  ],
+  "all_seven_uploaded_separately": true,
+  "annexes_missing": [],
+  "limitations": [
+    "Original HWP files are not stored in the GitHub repository; only extracted-text and structured derivatives.",
+    "Source HWP revision alignment with the official 2026-26 notice has not been independently verified.",
+    "Figures, embedded formulas, pictograms, page-level formatting and table geometry may not survive extracted text.",
+    "Additional cross-referenced laws, substance classification data and product evidence are required for final compliance judgments.",
+    "Generated field presence checks and concentration tables need human QA before production use."
   ]
 }
