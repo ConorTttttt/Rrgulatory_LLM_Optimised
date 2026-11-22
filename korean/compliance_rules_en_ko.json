@@ -221,7 +221,7 @@
       "rule_id": "CLASS-001",
       "domain": "classification",
       "requirement_english": "Chemical and mixture classification must use Annex 1 detailed criteria",
-      "evaluation_instruction": "Do not invent classification or GHS categories; compare the supplied product classification with Annex 1 only when Annex 1 is available.",
+      "evaluation_instruction": "Annex 1 text and curated examples are now available; verify against the original HWP classification tables, formula objects, mixture hierarchy, test data and exceptions before any product hazard categorization. Never infer from name/CAS alone.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -252,7 +252,8 @@
           "source_id": "A12-C01-I01"
         }
       ],
-      "notes": []
+      "notes": [],
+      "annex_implementation_status": "SOURCE_TEXT_AVAILABLE_DRAFT_UNVERIFIED"
     },
     {
       "rule_id": "CLASS-002",
@@ -1043,7 +1044,7 @@
       "rule_id": "LABEL-006",
       "domain": "label",
       "requirement_english": "Pictograms, signal words, H/P statements are determined by Annex 2.",
-      "evaluation_instruction": "Do not infer exact required H/P phrases from this uploaded file without Annex 2.",
+      "evaluation_instruction": "Annex 2 now provides Korean H/P code text, but its flattened visual tables/pictograms are unverified. Cross-check category-to-statement/pictogram mapping against authoritative original layout before a PASS/FAIL determination.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -1068,7 +1069,8 @@
           "source_id": "A6-C01"
         }
       ],
-      "notes": []
+      "notes": [],
+      "annex_implementation_status": "SOURCE_TEXT_AVAILABLE_DRAFT_UNVERIFIED"
     },
     {
       "rule_id": "LABEL-007",
@@ -1377,7 +1379,7 @@
       "rule_id": "LABEL-015",
       "domain": "label",
       "requirement_english": "Warning label format and size subject to Annex 3.",
-      "evaluation_instruction": "Unverifiable without Annex 3 and physical label measurements.",
+      "evaluation_instruction": "Annex 3 dimensional thresholds are available as draft structured rules. Compare actual container capacity, measured label area and pictogram areas to the appropriate criteria; inspect applicable exceptions and source layout.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -1402,7 +1404,8 @@
           "source_id": "A7-BODY"
         }
       ],
-      "notes": []
+      "notes": [],
+      "annex_implementation_status": "SOURCE_TEXT_AVAILABLE_DRAFT_UNVERIFIED"
     },
     {
       "rule_id": "LABEL-016",
@@ -1833,7 +1836,7 @@
       "rule_id": "CBI-002",
       "domain": "confidentiality",
       "requirement_english": "Confidentiality application evidence and necessity judged under Annex 7.",
-      "evaluation_instruction": "Cannot certify appropriateness of confidentiality without Annex 7 and application materials.",
+      "evaluation_instruction": "Annex 7 trade-secret substantiation criteria are available as evidence prompts, but no legal approval or sufficiency can be inferred without actual case documents, approval decisions and applicable exceptions.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -1863,7 +1866,8 @@
           "source_id": "A17-C02"
         }
       ],
-      "notes": []
+      "notes": [],
+      "annex_implementation_status": "SOURCE_TEXT_AVAILABLE_DRAFT_UNVERIFIED"
     },
     {
       "rule_id": "CBI-003",
