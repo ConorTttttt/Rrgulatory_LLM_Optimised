@@ -59,6 +59,24 @@ A legal or regulatory expert should confirm actual product applicability, curren
 Run `python korean/build.py --validate` at repository root. To regenerate retrieval chunks and the coverage matrix from the current source Markdown and rules JSON, run `python korean/build.py --refresh-index`.
 
 
+## Deterministic review engine (new)
+
+The [`engine/preflight.py`](engine/preflight.py) program is an **offline preliminary reviewer**, not a legal decision-maker. It reads the existing Annex 3–6 structured files, checks section order and extracted field coverage, matches Annex 5 use codes, compares known Annex 6 thresholds, and checks label dimensions using measured evidence.
+
+**Run from the repository root:**
+
+```bash
+python -m korean.engine.preflight korean/examples/SYNTHETIC_preflight_intake.json > preflight-output.json
+python -m unittest discover -s korean/tests -p "test_*.py" -v
+python korean/annexes/validate_annexes.py
+```
+
+The preflight output conforms to [`engine/preflight_report.schema.json`](engine/preflight_report.schema.json) and **always** marks `overall_status: NEEDS_REVIEW` and `legal_compliance_determined: false`. This is intentional: observed presence is not information quality, and concentration-cutoff matching does not imply regulatory permission or an accurate GHS mixture classification. Detailed usage is in [`engine/README.md`](engine/README.md).
+
+An automated [GitHub Actions QA workflow](../.github/workflows/korean-validation.yml) has been added to run the main-body and annex validators, the synthetic regression suite and JSON/JSONL syntax checks. A CI badge is not evidence of legal validation, and actual runner availability must be confirmed separately.
+
+Use `korean/private_sds/`, `korean/private_intake/` or `korean/private_reports/` for confidential local files (excluded by `korean/.gitignore`); never commit actual confidential formulations or trade-secret approval documents.
+
 ## Annexes 1–7 — complete source collection (draft extractions)
 
 All seven user-supplied HWP annexes are now represented in [`annexes/`](annexes/README.md). Primary additions:
