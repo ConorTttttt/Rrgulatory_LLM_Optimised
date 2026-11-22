@@ -1,0 +1,1548 @@
+{
+  "metadata": {
+    "annex": "별표 2",
+    "source_file_sha256": "89ab2d6a902ee72e0b2e6a237b42fc2383d56dc19c657bc79cc2bb75e89a461f",
+    "source_heading": "제2장 코드별 문구",
+    "extraction": "Sequential code/phrase pattern extraction from indexed HWP text",
+    "status": "DRAFT_VERIFY_BEFORE_PRODUCTION",
+    "coverage": "CODE_GLOSSARY_ONLY_NOT_GHS_PICTOGRAM_OR_CATEGORY_MAPPING",
+    "pictograms_not_extracted": true,
+    "category_to_phrase_mapping_requires_layout_verification": true,
+    "duplicate_codes": [
+      {
+        "code": "P370+P380+P375",
+        "first": "화재 시: 주변 지역의 사람을 대피시키시오. 폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오.",
+        "second": "[+P378]"
+      }
+    ],
+    "parsing_notes": []
+  },
+  "phrases": [
+    {
+      "code": "H200",
+      "section": "physical_hazard_statement",
+      "text_ko": "불안정한 폭발성 물질",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H201",
+      "section": "physical_hazard_statement",
+      "text_ko": "폭발성 물질: 대폭발 위험",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H202",
+      "section": "physical_hazard_statement",
+      "text_ko": "폭발성 물질: 심한 분출 위험",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H203",
+      "section": "physical_hazard_statement",
+      "text_ko": "폭발성 물질: 화재, 폭풍 또는 분출 위험",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H204",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재 또는 분출 위험",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H205",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재 시 대폭발할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H206",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재, 폭풍 또는 분출 위험: 둔감제 감소 시 폭발 위험성이 증가함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H207",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재 또는 분출 위험: 둔감제 감소 시 폭발 위험성이 증가함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H208",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재 위험: 둔감제 감소 시 폭발 위험성이 증가함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H220",
+      "section": "physical_hazard_statement",
+      "text_ko": "극인화성 가스",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H221",
+      "section": "physical_hazard_statement",
+      "text_ko": "인화성 가스",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H222",
+      "section": "physical_hazard_statement",
+      "text_ko": "극인화성 에어로졸",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H223",
+      "section": "physical_hazard_statement",
+      "text_ko": "인화성 에어로졸",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H224",
+      "section": "physical_hazard_statement",
+      "text_ko": "극인화성 액체 및 증기",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H225",
+      "section": "physical_hazard_statement",
+      "text_ko": "고인화성 액체 및 증기",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H226",
+      "section": "physical_hazard_statement",
+      "text_ko": "인화성 액체 및 증기",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H227",
+      "section": "physical_hazard_statement",
+      "text_ko": "가연성 액체",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H228",
+      "section": "physical_hazard_statement",
+      "text_ko": "인화성 고체",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H229",
+      "section": "physical_hazard_statement",
+      "text_ko": "압력용기: 가열하면 터질 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H230",
+      "section": "physical_hazard_statement",
+      "text_ko": "공기 없이도 폭발적으로 반응할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H231",
+      "section": "physical_hazard_statement",
+      "text_ko": "고압 그리고/또는 고온 하에서 공기 없이도 폭발적으로 반응할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H232",
+      "section": "physical_hazard_statement",
+      "text_ko": "공기에 노출되면 자연발화할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H240",
+      "section": "physical_hazard_statement",
+      "text_ko": "가열하면 폭발할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H241",
+      "section": "physical_hazard_statement",
+      "text_ko": "가열하면 화재 또는 폭발할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H242",
+      "section": "physical_hazard_statement",
+      "text_ko": "가열하면 화재를 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H250",
+      "section": "physical_hazard_statement",
+      "text_ko": "공기에 노출되면 자연발화함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H251",
+      "section": "physical_hazard_statement",
+      "text_ko": "자기발열성: 화재를 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H252",
+      "section": "physical_hazard_statement",
+      "text_ko": "대량으로 존재 시 자기발열성: 화재를 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H260",
+      "section": "physical_hazard_statement",
+      "text_ko": "물과 접촉 시 자연발화 가능성이 있는 인화성 가스를 발생시킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H261",
+      "section": "physical_hazard_statement",
+      "text_ko": "물과 접촉 시 인화성 가스를 발생시킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H270",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재를 일으키거나 강렬하게 함: 산화제",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H271",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재 또는 폭발을 일으킬 수 있음: 강산화제",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H272",
+      "section": "physical_hazard_statement",
+      "text_ko": "화재를 강렬하게 함: 산화제",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H280",
+      "section": "physical_hazard_statement",
+      "text_ko": "고압가스: 가열하면 폭발할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H281",
+      "section": "physical_hazard_statement",
+      "text_ko": "냉동액화가스 포함: 극저온에 의한 화상 또는 손상을 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H290",
+      "section": "physical_hazard_statement",
+      "text_ko": "금속을 부식시킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H300",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H301",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H302",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H303",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H304",
+      "section": "health_hazard_statement",
+      "text_ko": "삼켜서 기도로 유입되면 치명적일 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H305",
+      "section": "health_hazard_statement",
+      "text_ko": "삼켜서 기도로 유입되면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H310",
+      "section": "health_hazard_statement",
+      "text_ko": "피부와 접촉하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H311",
+      "section": "health_hazard_statement",
+      "text_ko": "피부와 접촉하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H312",
+      "section": "health_hazard_statement",
+      "text_ko": "피부와 접촉하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H313",
+      "section": "health_hazard_statement",
+      "text_ko": "피부와 접촉하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H314",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 심한 화상과 눈에 손상을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H315",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 자극을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H317",
+      "section": "health_hazard_statement",
+      "text_ko": "알레르기성 피부 반응을 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H318",
+      "section": "health_hazard_statement",
+      "text_ko": "눈에 심한 손상을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H319",
+      "section": "health_hazard_statement",
+      "text_ko": "눈에 심한 자극을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H320",
+      "section": "health_hazard_statement",
+      "text_ko": "눈에 자극을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H330",
+      "section": "health_hazard_statement",
+      "text_ko": "흡입하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H331",
+      "section": "health_hazard_statement",
+      "text_ko": "흡입하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H332",
+      "section": "health_hazard_statement",
+      "text_ko": "흡입하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H333",
+      "section": "health_hazard_statement",
+      "text_ko": "흡입하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H334",
+      "section": "health_hazard_statement",
+      "text_ko": "흡입시 알레르기성 반응, 천식 또는 호흡 곤란 등을 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H335",
+      "section": "health_hazard_statement",
+      "text_ko": "호흡기 자극을 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H336",
+      "section": "health_hazard_statement",
+      "text_ko": "졸음 또는 현기증을 일으킬 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H340",
+      "section": "health_hazard_statement",
+      "text_ko": "유전적인 결함을 일으킬 수 있음(주1)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H341",
+      "section": "health_hazard_statement",
+      "text_ko": "유전적인 결함을 일으킬 것으로 의심됨(주1)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H350",
+      "section": "health_hazard_statement",
+      "text_ko": "암을 일으킬 수 있음(주2)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H351",
+      "section": "health_hazard_statement",
+      "text_ko": "암을 일으킬 것으로 의심됨(주2)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H360",
+      "section": "health_hazard_statement",
+      "text_ko": "태아 또는 생식능력에 손상을 일으킬 수 있음(주3)(주4)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H361",
+      "section": "health_hazard_statement",
+      "text_ko": "태아 또는 생식능력에 손상을 일으킬 것으로 의심됨(주3)(주4)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H362",
+      "section": "health_hazard_statement",
+      "text_ko": "모유를 먹는 아이에게 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H370",
+      "section": "health_hazard_statement",
+      "text_ko": "장기(주5)에 손상을 일으킴(주6)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H371",
+      "section": "health_hazard_statement",
+      "text_ko": "장기(주5)에 손상을 일으킬 수 있음(주6)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H372",
+      "section": "health_hazard_statement",
+      "text_ko": "장기간 또는 반복노출 되면 장기(주5)에 손상을 일으킴(주7)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H373",
+      "section": "health_hazard_statement",
+      "text_ko": "장기간 또는 반복노출 되면 장기(주5)에 손상을 일으킬 수 있음(주7)",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H300+H310",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 피부에 접촉하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H300+H330",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 흡입하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H310+H330",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 접촉하거나 흡입하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H300+H310+H330",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나, 피부에 접촉하거나 흡입하면 치명적임",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H301+H311",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 피부에 접촉하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H301+H331",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 흡입하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H311+H331",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 접촉하거나 흡입하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H301+H311+H331",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나, 피부에 접촉하거나 흡입하면 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H302+H312",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 피부에 접촉하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H302+H332",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 흡입하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H312+H332",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 접촉하거나 흡입하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H302+H312+H332",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나, 피부에 접촉하거나 흡입하면 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H303+H313",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 피부에 접촉하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H303+H333",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나 흡입하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H313+H333",
+      "section": "health_hazard_statement",
+      "text_ko": "피부에 접촉하거나 흡입하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H303+H313+H333",
+      "section": "health_hazard_statement",
+      "text_ko": "삼키거나, 피부에 접촉하거나 흡입하면 유해할 수 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H315+H320",
+      "section": "health_hazard_statement",
+      "text_ko": "피부 및 눈에 자극을 일으킴",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H400",
+      "section": "environment_hazard_statement",
+      "text_ko": "수생생물에 매우 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H410",
+      "section": "environment_hazard_statement",
+      "text_ko": "장기적인 영향에 의해 수생생물에게 매우 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H411",
+      "section": "environment_hazard_statement",
+      "text_ko": "장기적인 영향에 의해 수생생물에게 유독함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H412",
+      "section": "environment_hazard_statement",
+      "text_ko": "장기적인 영향에 의해 수생생물에게 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H413",
+      "section": "environment_hazard_statement",
+      "text_ko": "장기적인 영향에 의해 수생생물에 유해의 우려가 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "H420",
+      "section": "environment_hazard_statement",
+      "text_ko": "대기 상층부의 오존층을 파괴하여 공공의 건강 및 환경에 유해함",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P201",
+      "section": "prevention_precaution",
+      "text_ko": "사용 전 취급 설명서를 확보하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P202",
+      "section": "prevention_precaution",
+      "text_ko": "모든 안전 예방조치 문구를 읽고 이해하기 전에는 취급하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P210",
+      "section": "prevention_precaution",
+      "text_ko": "열, 고온의 표면, 스파크, 화염 및 그 밖의 점화원으로부터 멀리하시오. 금연",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P211",
+      "section": "prevention_precaution",
+      "text_ko": "화염 또는 그 밖의 점화원에 분사하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P220",
+      "section": "prevention_precaution",
+      "text_ko": "의류 및 그 밖의 가연성 물질로부터 멀리하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P222",
+      "section": "prevention_precaution",
+      "text_ko": "공기에 접촉시키지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P223",
+      "section": "prevention_precaution",
+      "text_ko": "물에 접촉시키지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P230",
+      "section": "prevention_precaution",
+      "text_ko": "…(으)로 젖은 상태를 유지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P231",
+      "section": "prevention_precaution",
+      "text_ko": "불활성 기체/… 하에서 취급 및 저장하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P232",
+      "section": "prevention_precaution",
+      "text_ko": "습기를 방지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P233",
+      "section": "prevention_precaution",
+      "text_ko": "용기를 단단히 밀폐하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P234",
+      "section": "prevention_precaution",
+      "text_ko": "원래의 용기에만 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P235",
+      "section": "prevention_precaution",
+      "text_ko": "저온으로 유지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P240",
+      "section": "prevention_precaution",
+      "text_ko": "용기와 수용설비를 접지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P241",
+      "section": "prevention_precaution",
+      "text_ko": "방폭형 [전기/환기/조명/…]설비를 사용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P242",
+      "section": "prevention_precaution",
+      "text_ko": "스파크가 발생하지 않는 도구를 사용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P243",
+      "section": "prevention_precaution",
+      "text_ko": "정전기 방지 조치를 취하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P244",
+      "section": "prevention_precaution",
+      "text_ko": "밸브 및 관이음쇠에 오일과 그리스가 묻지 않도록 하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P250",
+      "section": "prevention_precaution",
+      "text_ko": "연마/충격/마찰/…을(를) 가하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P251",
+      "section": "prevention_precaution",
+      "text_ko": "사용 후에도 구멍을 뚫거나 태우지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P260",
+      "section": "prevention_precaution",
+      "text_ko": "분진/흄/가스/미스트/증기/스프레이를(을) 흡입하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P261",
+      "section": "prevention_precaution",
+      "text_ko": "분진/흄/가스/미스트/증기/스프레이의 흡입을 피하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P262",
+      "section": "prevention_precaution",
+      "text_ko": "눈, 피부, 의류에 묻지 않도록 하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P263",
+      "section": "prevention_precaution",
+      "text_ko": "임신 및 수유 기간에는 접촉하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P264",
+      "section": "prevention_precaution",
+      "text_ko": "취급 후에는 …을(를) 철저히 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P270",
+      "section": "prevention_precaution",
+      "text_ko": "이 제품을 사용할 때에는 먹거나, 마시거나 흡연하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P271",
+      "section": "prevention_precaution",
+      "text_ko": "옥외 또는 환기가 잘 되는 곳에서만 취급하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P272",
+      "section": "prevention_precaution",
+      "text_ko": "작업장 밖으로 오염된 의류를 반출하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P273",
+      "section": "prevention_precaution",
+      "text_ko": "환경으로 배출하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P280",
+      "section": "prevention_precaution",
+      "text_ko": "보호장갑/보호의/보안경/안면보호구를(을) 착용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P282",
+      "section": "prevention_precaution",
+      "text_ko": "방한장갑 및 안면 보호구 또는 보안경을 착용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P283",
+      "section": "prevention_precaution",
+      "text_ko": "방화복 또는 방염복을 입으시오",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P284",
+      "section": "prevention_precaution",
+      "text_ko": "[환기가 잘 되지 않는 경우] 호흡기 보호구를 착용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P231+P232",
+      "section": "prevention_precaution",
+      "text_ko": "불활성 기체/… 하에서 취급 및 저장하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P301",
+      "section": "response_precaution",
+      "text_ko": "삼켰다면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P302",
+      "section": "response_precaution",
+      "text_ko": "피부에 묻으면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P303",
+      "section": "response_precaution",
+      "text_ko": "피부(또는 머리카락)에 묻으면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P304",
+      "section": "response_precaution",
+      "text_ko": "흡입하면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P305",
+      "section": "response_precaution",
+      "text_ko": "눈에 묻으면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P306",
+      "section": "response_precaution",
+      "text_ko": "의류에 묻으면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P308",
+      "section": "response_precaution",
+      "text_ko": "노출되거나 노출이 우려되면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P310",
+      "section": "response_precaution",
+      "text_ko": "즉시 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P311",
+      "section": "response_precaution",
+      "text_ko": "의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P312",
+      "section": "response_precaution",
+      "text_ko": "불편함을 느끼면 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P313",
+      "section": "response_precaution",
+      "text_ko": "의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P314",
+      "section": "response_precaution",
+      "text_ko": "불편함을 느끼면 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P315",
+      "section": "response_precaution",
+      "text_ko": "즉시 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P320",
+      "section": "response_precaution",
+      "text_ko": "긴급히 …처치를 하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P321",
+      "section": "response_precaution",
+      "text_ko": "…처치를 하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P330",
+      "section": "response_precaution",
+      "text_ko": "입을 씻어내시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P331",
+      "section": "response_precaution",
+      "text_ko": "토하게 하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P332",
+      "section": "response_precaution",
+      "text_ko": "피부 자극이 나타나면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P333",
+      "section": "response_precaution",
+      "text_ko": "피부 자극 또는 홍반이 나타나면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P334",
+      "section": "response_precaution",
+      "text_ko": "차가운 물에 담그시오[또는 젖은 붕대로 감싸시오].",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P335",
+      "section": "response_precaution",
+      "text_ko": "피부에 묻은 물질을 털어내시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P336",
+      "section": "response_precaution",
+      "text_ko": "미지근한 물로 언 부분을 녹이시오. 손상된 부위를 문지르지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P337",
+      "section": "response_precaution",
+      "text_ko": "눈에 자극이 지속되면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P338",
+      "section": "response_precaution",
+      "text_ko": "가능하면 콘택트렌즈를 제거하시오. 계속 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P340",
+      "section": "response_precaution",
+      "text_ko": "신선한 공기가 있는 곳으로 옮기고 호흡하기 쉬운 자세로 안정을 취하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P342",
+      "section": "response_precaution",
+      "text_ko": "호흡기 증상이 나타나면:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P351",
+      "section": "response_precaution",
+      "text_ko": "몇 분간 물로 조심해서 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P352",
+      "section": "response_precaution",
+      "text_ko": "다량의 물/…(으)로 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P353",
+      "section": "response_precaution",
+      "text_ko": "피부를 물로 씻으시오[또는 샤워하시오].",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P360",
+      "section": "response_precaution",
+      "text_ko": "의류를 벗기 전에 오염된 의류 및 피부를 다량의 물로 즉시 씻어내시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P361",
+      "section": "response_precaution",
+      "text_ko": "오염된 모든 의류를 즉시 벗으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P362",
+      "section": "response_precaution",
+      "text_ko": "오염된 의류를 벗으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P363",
+      "section": "response_precaution",
+      "text_ko": "다시 사용 전 오염된 의류를 세척하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P364",
+      "section": "response_precaution",
+      "text_ko": "다시 사용 전 세척하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370",
+      "section": "response_precaution",
+      "text_ko": "화재 시:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P371",
+      "section": "response_precaution",
+      "text_ko": "대형 화재 시:",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P372",
+      "section": "response_precaution",
+      "text_ko": "폭발 위험성이 있음",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P373",
+      "section": "response_precaution",
+      "text_ko": "화염이 폭발성 물질에 도달하면 불을 끄려 하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P375",
+      "section": "response_precaution",
+      "text_ko": "폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P376",
+      "section": "response_precaution",
+      "text_ko": "안전하게 처리하는 것이 가능하면 누출을 막으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P377",
+      "section": "response_precaution",
+      "text_ko": "가스 누출 화재; 누출을 안전하게 막을 수 없다면, 불을 끄려하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P378",
+      "section": "response_precaution",
+      "text_ko": "불을 끄기 위해 …을(를) 사용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P380",
+      "section": "response_precaution",
+      "text_ko": "주변 지역의 사람을 대피시키시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P381",
+      "section": "response_precaution",
+      "text_ko": "누출 시 모든 점화원을 제거하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P390",
+      "section": "response_precaution",
+      "text_ko": "물질손상을 방지하기 위해 누출물을 흡수시키시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P391",
+      "section": "response_precaution",
+      "text_ko": "누출물을 모으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P301+P310",
+      "section": "response_precaution",
+      "text_ko": "삼켰다면: 즉시 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P301+P312",
+      "section": "response_precaution",
+      "text_ko": "삼켰다면: 불편함을 느끼면 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P301+P330+P331",
+      "section": "response_precaution",
+      "text_ko": "삼켰다면: 입을 씻어내시오. 토하게 하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P302+P334",
+      "section": "response_precaution",
+      "text_ko": "피부에 묻으면: 차가운 물에 담그시오[또는 젖은 붕대로 감싸시오].",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P302+P335+P334",
+      "section": "response_precaution",
+      "text_ko": "피부에 묻으면: 피부에 묻은 물질을 털어내시오. 차가운 물에 담그시오[또는 젖은 붕대로 감싸시오].",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P302+P352",
+      "section": "response_precaution",
+      "text_ko": "피부에 묻으면: 다량의 물/…(으)로 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P303+P361+P353",
+      "section": "response_precaution",
+      "text_ko": "피부(또는 머리카락)에 묻으면: 오염된 모든 의류를 즉시 벗으시오. 피부를 물로 씻으시오[또는 샤워하시오].",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P304+P312",
+      "section": "response_precaution",
+      "text_ko": "흡입하면: 불편함을 느끼면 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P304+P340",
+      "section": "response_precaution",
+      "text_ko": "흡입하면: 신선한 공기가 있는 곳으로 옮기고 호흡하기 쉬운 자세로 안정을 취하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P305+P351+P338",
+      "section": "response_precaution",
+      "text_ko": "눈에 묻으면: 몇 분간 물로 조심해서 씻으시오. 가능하면 콘택트렌즈를 제거하시오. 계속 씻으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P306+P360",
+      "section": "response_precaution",
+      "text_ko": "의류에 묻으면: 의류를 벗기 전에 오염된 의류 및 피부를 다량의 물로 즉시 씻어내시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P308+P311",
+      "section": "response_precaution",
+      "text_ko": "노출되거나 노출이 우려되면: 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P308+P313",
+      "section": "response_precaution",
+      "text_ko": "노출되거나 노출이 우려되면: 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P332+P313",
+      "section": "response_precaution",
+      "text_ko": "피부 자극이 나타나면: 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P333+P313",
+      "section": "response_precaution",
+      "text_ko": "피부 자극 또는 홍반이 나타나면: 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P336+P315",
+      "section": "response_precaution",
+      "text_ko": "미지근한 물로 언 부분을 녹이시오. 손상된 부위를 문지르지 마시오. 즉시 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P337+P313",
+      "section": "response_precaution",
+      "text_ko": "눈에 자극이 지속되면: 의학적인 조치/조언을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P342+P311",
+      "section": "response_precaution",
+      "text_ko": "호흡기 증상이 나타나면: 의료기관/의사/…의 진찰을 받으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P361+P364",
+      "section": "response_precaution",
+      "text_ko": "오염된 모든 의류를 즉시 벗고 다시 사용 전 세척하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P362+P364",
+      "section": "response_precaution",
+      "text_ko": "오염된 의류를 벗고 다시 사용 전 세척하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370+P372+P380+P373",
+      "section": "response_precaution",
+      "text_ko": "화재 시: 폭발 위험성이 있음. 주변 지역의 사람을 대피시키시오. 화염이 폭발성 물질에 도달하면 불을 끄려하지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370+P376",
+      "section": "response_precaution",
+      "text_ko": "화재 시: 안전하게 처리하는 것이 가능하면 누출을 막으시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370+P378",
+      "section": "response_precaution",
+      "text_ko": "화재 시: 불을 끄기 위해 …을(를) 사용하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370+P380+P375",
+      "section": "response_precaution",
+      "text_ko": "화재 시: 주변 지역의 사람을 대피시키시오. 폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P370+P380+P375",
+      "section": "response_precaution",
+      "text_ko": "[+P378]",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P371+P380+P375",
+      "section": "response_precaution",
+      "text_ko": "대형 화재 시: 주변 지역의 사람을 대피시키시오. 폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P401",
+      "section": "storage_precaution",
+      "text_ko": "관련 법규에 명시된 내용에 따라 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P402",
+      "section": "storage_precaution",
+      "text_ko": "건조한 장소에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P403",
+      "section": "storage_precaution",
+      "text_ko": "환기가 잘 되는 곳에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P404",
+      "section": "storage_precaution",
+      "text_ko": "밀폐된 용기에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P405",
+      "section": "storage_precaution",
+      "text_ko": "잠금장치를 하여 저장하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P406",
+      "section": "storage_precaution",
+      "text_ko": "금속부식성 물질이므로 제조자 또는 행정관청에서 정한 내부식성 용기 등에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P407",
+      "section": "storage_precaution",
+      "text_ko": "적재물 또는 팔레트 사이의 간격을 유지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P410",
+      "section": "storage_precaution",
+      "text_ko": "직사광선을 피하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P411",
+      "section": "storage_precaution",
+      "text_ko": "반응성이 높은 물질이므로 보관 시 …℃를 넘지 않도록 유의하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P412",
+      "section": "storage_precaution",
+      "text_ko": "50℃ 이상의 온도에 노출시키지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P413",
+      "section": "storage_precaution",
+      "text_ko": "반응성이 높은 물질이므로 …㎏ 이상으로 보관 시 …℃를 넘지 않도록 하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P420",
+      "section": "storage_precaution",
+      "text_ko": "격리하여 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P402+P404",
+      "section": "storage_precaution",
+      "text_ko": "건조한 장소에 보관하시오. 밀폐된 용기에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P403+P233",
+      "section": "storage_precaution",
+      "text_ko": "환기가 잘 되는 곳에 보관하시오. 용기를 단단히 밀폐하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P403+P235",
+      "section": "storage_precaution",
+      "text_ko": "환기가 잘 되는 곳에 보관하시오. 저온으로 유지하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P410+P403",
+      "section": "storage_precaution",
+      "text_ko": "직사광선을 피하시오. 환기가 잘 되는 곳에 보관하시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P410+P412",
+      "section": "storage_precaution",
+      "text_ko": "직사광선을 피하시오. 50℃ 이상의 온도에 노출시키지 마시오.",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P501",
+      "section": "disposal_precaution",
+      "text_ko": "폐기물 관련 법령에 따라 내용물/용기를 폐기하시오",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    },
+    {
+      "code": "P502",
+      "section": "disposal_precaution",
+      "text_ko": "제조자 또는 공급자가 제공한 재생 또는 재활용에 대한 정보를 참조하시오",
+      "source_heading": "별표 2 제2장 코드별 문구",
+      "status": "EXTRACTED_NEEDS_REVIEW"
+    }
+  ]
+}
