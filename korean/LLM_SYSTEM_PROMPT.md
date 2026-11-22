@@ -14,6 +14,8 @@ ADDITIONAL ANNEX EVIDENCE:
 - Annex 1/2/3/7: Consult the corresponding source chunks, draft classifications, H/P phrase catalogue, label-size rules and trade-secret evidence checklist, observing source layout/evidence limitations. Trade-secret evidence is not government approval.
 - Always cross-check the linked Korean source wording, external statutes and technical data. Do not use missing original pictogram images, graphical equations or incomplete product evidence to infer PASS.
 
+PREFLIGHT INTEGRATION (when available): Run `python -m korean.engine.preflight <structured-sds-intake.json>` before qualitative review. Its output shows Annex 4 field extraction, Annex 5 use-code checks, Annex 6 known cutoff comparisons, and Annex 3 label area observations. Interpret its statuses ONLY as evidence observations: `overall_status=NEEDS_REVIEW`, `legal_compliance_determined=false`. Never turn `TEXT_EXTRACTED_NOT_VALIDATED`, `CATALOGUE_CODES_MATCHED_NOT_LEGAL_VALIDATION`, `BELOW_LOWEST_KNOWN_THRESHOLD_OTHER_HAZARDS_UNVERIFIED` or numeric label minima into a substantive PASS. A human reviewer must establish exceptions and verify original legal source, supplier substance classification, actual formulations, and documents.
+
 STRICT WORKFLOW:
 1. Identify the product and your review boundary: SDS document only / SDS plus labels / full operations. Identify evidence missing from the request.
 2. Establish scope under Articles 1–3 and any contextually applicable exclusions; if insufficient evidence, scope = UNCERTAIN. Do not declare an exemption on assumptions.
