@@ -7,7 +7,7 @@ This directory provides Korean legal source text, bilingual review rules, a retr
 
 ## Start here
 
-For a simple LLM workflow, use **`SINGLE_FILE_LLM_KNOWLEDGE_BASE.md`** **alongside the separately uploaded Annexes 1, 2, 3 and 7 in [`annexes/`](annexes/README.md)**. Annexes 4, 5, 6 remain missing.
+For a simple LLM workflow, use **`SINGLE_FILE_LLM_KNOWLEDGE_BASE.md`** with the **complete Annexes 1–7 reference collection** in [`annexes/`](annexes/README.md). The single-file version preserves the main-body notice only; detailed Annex tables and structured rules reside in `annexes/`.
 
 For a structured compliance pipeline:
 1. Load `compliance_rules_en_ko.json` and `regulation_full_structured_ko.md` as evidence-linked references; optionally index `rag_source_chunks.jsonl`.
@@ -28,7 +28,7 @@ For a structured compliance pipeline:
 | `rag_source_chunks.jsonl` | 131 legal-provision chunks linked to rules for retrieval. |
 | `coverage_matrix.json` | Article-to-rule coverage index. |
 | `sds_16_section_index.json` | Article 10(1) required SDS section names. |
-| `missing_annex_dependency_manifest.json` | Missing-annex and external-dependency manifest. |
+| `missing_annex_dependency_manifest.json` | Annex availability, extraction quality and other external-dependency manifest. |
 | `LLM_SYSTEM_PROMPT.md` | Ready-to-use assessor instructions and guardrails. |
 | `sds_intake.schema.json` | Suggested structured input format. |
 | `compliance_report.schema.json` | Required output schema with evidence and decision statuses. |
@@ -42,11 +42,11 @@ For a structured compliance pipeline:
 - `NEEDS_REVIEW`: unavailable legal references, insufficient evidence, scientific ambiguity or missing inputs.
 - `NOT_APPLICABLE`: the requirement genuinely does not apply with documented justification.
 
-**Do not infer an overall PASS merely because the required 16 SDS headings exist.** Complete field-by-field assessment depends on Annex 4 and other requirements.
+**Do not infer an overall PASS merely because the required 16 SDS headings exist.** Annex 4's field inventory is now available, but chemical accuracy, exemptions, source-layout details, cross-laws and product evidence must still be verified.
 
 ## Important limits
 
-The original notice **main-body HWPX** includes Articles 1–21 (including Article 6-2) and supplementary provisions, but not Annexes 1–7. **Separate HWP files for Annexes 1, 2, 3 and 7 have now been supplied**, and draft extracted text plus supporting files have been committed to [`annexes/`](annexes/README.md). Annexes **4, 5, 6 are still missing**. Hazard criteria, label details, Annex 4 SDS subfields, mixture concentration limits and trade-secret criteria require additional authoritative materials. The notice also cross-refers to other legislation and technical standards. None of these missing criteria should be guessed.
+The uploaded notice's original **main-body HWPX** does not embed Annexes 1–7, but **all seven annexes have now been uploaded separately** and their text and structured review aids are in [`annexes/`](annexes/README.md). This enables detailed draft SDS field, use-code and concentration-threshold checking. The HWP annexes' effective revision, embedded illustrations and formula/layout fidelity have not been independently verified; cross-referenced laws and scientific evidence remain additional dependencies.
 
 The first-party source files in this directory (`SINGLE_FILE_LLM_KNOWLEDGE_BASE.md`, `compliance_rules_en_ko.json`, and the extracted Markdown prompt/source/rulebook) were transferred from the original compliance conversion. Secondary machine-readable indexes here have been **regenerated from these primary artifacts**; their provenance, indexing structure and paragraph-offset metadata may differ from the original ZIP export. The supplied HWPX, rather than this repository, is the ultimate reference for the extracted language.
 
@@ -58,8 +58,15 @@ A legal or regulatory expert should confirm actual product applicability, curren
 
 Run `python korean/build.py --validate` at repository root. To regenerate retrieval chunks and the coverage matrix from the current source Markdown and rules JSON, run `python korean/build.py --refresh-index`.
 
-## Newly added Annexes 1, 2, 3, 7
 
-The `annexes/` directory now includes source-text extracts, source-located retrieval chunks, draft classification thresholds (Annex 1), H/P phrase codes (Annex 2), measurable label size rules (Annex 3), and trade-secret evidence questions (Annex 7). These are **draft review aids**, not certified annex transcriptions. Source HWP SHA-256 metadata is in [`annexes/annex_sources_manifest.json`](annexes/annex_sources_manifest.json).
+## Annexes 1–7 — complete source collection (draft extractions)
 
-Because HWP tables, pictograms and formulas can be lost in text extraction, confirm them against official source layout before automated final decisions. Confirm that each annex corresponds to the 2026-26 amendment. Annex 4 is still necessary for section-by-section SDS completion checks.
+All seven user-supplied HWP annexes are now represented in [`annexes/`](annexes/README.md). Primary additions:
+
+- **Annex 4:** [16-section, 97-field SDS checklist](annexes/annex_4_sds_field_requirements.json) and [one-rule-per-line data](annexes/annex_4_sds_field_rules.jsonl), including first-page MSDS-number placement and eight cross-section checks.
+- **Annex 5:** [48 use categories and 31 subcategories](annexes/annex_5_use_categories.json), with Korean descriptions and original English terms preserved.
+- **Annex 6:** [14 concentration-limit entries](annexes/annex_6_concentration_limits.json) covering 13 hazard headings and the separate mutagenicity categories. These are Article 11 composition-information thresholds, **not** general Annex 1 mixture-classification cutoffs.
+
+The original 60-rule JSON remains the cross-referenced base and now points assessors to the newly available annex-derived datasets. Read [the annex source manifest](annexes/annex_sources_manifest.json) before making compliance claims.
+
+**No annex is missing as an uploaded source; verification is still incomplete.** For legal-grade conclusions, verify the official version of each HWP and any diagrams, tabular alignment, formulas, effective dates, other governing laws, product facts and qualified scientific review.
