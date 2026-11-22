@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:korean-sds:2026-26:intake",
+  "title": "Korean SDS review intake",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "document_id": {
+      "type": "string"
+    },
+    "source_sds_filename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notice_basis": {
+      "const": "2026-26"
+    },
+    "review_scope": {
+      "type": "string",
+      "enum": [
+        "SDS_DOCUMENT_ONLY",
+        "SDS_AND_LABEL",
+        "FULL_WITH_OPERATIONS"
+      ]
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_mixture": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "purpose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "is_research_reagent": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "is_finished_article": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "is_research_intermediate": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "sds": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "revision_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "heading_ko",
+              "text"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 16
+              },
+              "heading_ko": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              },
+              "page_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "description": "Preserve physical source order and source page references, if obtainable."
+        },
+        "translated_from_foreign_sds": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "original_authoring_institution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "original_creation_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "chemical_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cas_no": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reported_min_pct": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "reported_max_pct": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "actual_pct": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 100
+          },
+          "alternative_name_used": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "hazard_classes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "authority_approval_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "label": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "operations": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "supporting_law": {
+      "type": "object",
+      "properties": {
+        "annex_1": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_2": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_3": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_4": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_5": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_6": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "annex_7": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "approvals": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object"
+      }
+    },
+    "reviewer_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "document_id",
+    "review_scope",
+    "product",
+    "sds"
+  ]
+}
