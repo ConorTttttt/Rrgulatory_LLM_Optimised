@@ -1,4 +1,5 @@
-"""Deterministic, evidence-first Korean SDS preflight engine."""
-from .preflight import Preflight
+"""Deterministic, evidence-first Korean SDS preflight engine.
 
-__all__ = ["Preflight"]
+Import Preflight using ``from korean.engine.preflight import Preflight``.
+This package deliberately avoids eager imports to keep ``python -m`` clean.
+"""
