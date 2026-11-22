@@ -7,7 +7,7 @@
 ### CLASS-001: Chemical and mixture classification must use Annex 1 detailed criteria
 
 - **Source:** 제4조제1항, 제12조제1항제1호
-- **Test:** Do not invent classification or GHS categories; compare the supplied product classification with Annex 1 only when Annex 1 is available.
+- **Test:** Annex 1 text and curated examples are now available; verify against the original HWP classification tables, formula objects, mixture hierarchy, test data and exceptions before any product hazard categorization. Never infer from name/CAS alone.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** classification_data, supporting_studies, annex_1_text
 - **Method:** external
@@ -36,7 +36,7 @@
 ### CBI-002: Confidentiality application evidence and necessity judged under Annex 7.
 
 - **Source:** 제17조제1항, 제17조제2항
-- **Test:** Cannot certify appropriateness of confidentiality without Annex 7 and application materials.
+- **Test:** Annex 7 trade-secret substantiation criteria are available as evidence prompts, but no legal approval or sufficiency can be inferred without actual case documents, approval decisions and applicable exceptions.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** confidentiality_application, annex_7_text, approval_result
 - **Method:** external
@@ -192,7 +192,7 @@
 ### LABEL-006: Pictograms, signal words, H/P statements are determined by Annex 2.
 
 - **Source:** 제6조제1항
-- **Test:** Do not infer exact required H/P phrases from this uploaded file without Annex 2.
+- **Test:** Annex 2 now provides Korean H/P code text, but its flattened visual tables/pictograms are unverified. Cross-check category-to-statement/pictogram mapping against authoritative original layout before a PASS/FAIL determination.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** classification_data, label_text, annex_2_text
 - **Method:** external
@@ -269,7 +269,7 @@
 ### LABEL-015: Warning label format and size subject to Annex 3.
 
 - **Source:** 제7조
-- **Test:** Unverifiable without Annex 3 and physical label measurements.
+- **Test:** Annex 3 dimensional thresholds are available as draft structured rules. Compare actual container capacity, measured label area and pictogram areas to the appropriate criteria; inspect applicable exceptions and source layout.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** label_image, label_dimensions, annex_3_text
 - **Method:** external
@@ -403,7 +403,7 @@
 ### SDS-008: Low-concentration component information may be omitted from Article 10 sections only within applicable thresholds.
 
 - **Source:** 제11조제9항
-- **Test:** For mixture components potentially below thresholds, compare physical categories against 1% in Rule Annex 18 1(a), other categories against Annex 6 concentration limits; use LOWER threshold if both. Never treat 1% as a blanket exemption.
+- **Test:** Use Annex 6 concentration limits under Art. 11(9) for potential omission of information on components that meet the implementing-rule hazard group. For implementing-rule Annex 18 §1(a) use the 1% criterion referenced by Art. 11(9); for §1(b) use the appropriate Annex 6 threshold. Where both groups apply, use the LOWER limit. These are composition-information omission limits, not Annex 1 mixture GHS category thresholds. Check actual ingredient concentration, classified hazards, context, exceptions and implementing-rule source before deciding.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** mixture_component_composition, ingredient_classifications, annex_6_text, enforcement_rule_annex_18
 - **Method:** external
@@ -443,7 +443,7 @@
 ### SDS-007: Use category selected from Annex 5 is mandatory when formally submitting the SDS.
 
 - **Source:** 제11조제8항
-- **Test:** Check at least one valid Annex 5 category if submission context is yes; optional for preparation without submission.
+- **Test:** For the SDS submission scenario in Art. 11(8), require at least one legitimate Annex 5 use code. Outside the specified submission context, the same clause permits optional category selection when preparing the SDS. Do not presume an exemption from product use alone.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** sds_section_1_use, is_sds_submitted, annex_5_text
 - **Method:** external
@@ -511,7 +511,7 @@
 ### SDS-002: Detailed subsection and field requirements come from Annex 4.
 
 - **Source:** 제10조제2항
-- **Test:** Cannot validate detailed subsection completeness until Annex 4 is available; additional worker-protective sections are allowed.
+- **Test:** Annex 4 is now available as a draft structured 16-section/97-field checklist. Compare each field and nested subfield with SDS evidence, apply Article 11 treatment of unavailable/not applicable entries and any relevant exceptions; validate source layout and version before production. Additional worker-safety subitems may be included.
 - **When:** Material is within the scope of this provision.
 - **Inputs:** sds_sections, annex_4_text
 - **Method:** external
