@@ -1,0 +1,73 @@
+{
+  "notice_basis": "고용노동부고시 제2026-26호",
+  "notice_effective_date": "2026-04-24",
+  "source_version_alignment": "UNVERIFIED: uploaded HWP filenames do not independently establish annex revision version; confirm against official amended notice",
+  "annexes": {
+    "1": {
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "화학물질 등의 분류",
+      "original_hwp_sha256": "23be57b89a3351daddac6afc50edf983cdb505adbecca3fdc5d1ab4207bae9ec",
+      "bytes": 257536,
+      "source_text_lines": 2423,
+      "extracted_text": "annex_1.extracted_ko.txt",
+      "rag_chunks": "annex_1_rag_chunks.jsonl",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
+      "ready_for_final_compliance_verdict": false
+    },
+    "2": {
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "경고표지의 기재항목",
+      "original_hwp_sha256": "89ab2d6a902ee72e0b2e6a237b42fc2383d56dc19c657bc79cc2bb75e89a461f",
+      "bytes": 3779584,
+      "source_text_lines": 3885,
+      "extracted_text": "annex_2.extracted_ko.txt",
+      "rag_chunks": "annex_2_rag_chunks.jsonl",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
+      "ready_for_final_compliance_verdict": false
+    },
+    "3": {
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "경고표지의 양식 및 규격",
+      "original_hwp_sha256": "2dfdb149d4b83181db59dc2e524fad414b3787081cf66c95424acc92ad8936b7",
+      "bytes": 44544,
+      "source_text_lines": 77,
+      "extracted_text": "annex_3.extracted_ko.txt",
+      "rag_chunks": "annex_3_rag_chunks.jsonl",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
+      "ready_for_final_compliance_verdict": false
+    },
+    "4": {
+      "status": "NOT_UPLOADED",
+      "ready_for_final_compliance_verdict": false
+    },
+    "5": {
+      "status": "NOT_UPLOADED",
+      "ready_for_final_compliance_verdict": false
+    },
+    "6": {
+      "status": "NOT_UPLOADED",
+      "ready_for_final_compliance_verdict": false
+    },
+    "7": {
+      "status": "UPLOADED_AS_SEPARATE_HWP",
+      "title_ko": "영업비밀에 해당함을 입증하는 자료 및 대체 필요성에 대한 판단기준",
+      "original_hwp_sha256": "3c95b8aa4dead972d687166315df101a291e090007820b322e4eec2cb25bc4eb",
+      "bytes": 54784,
+      "source_text_lines": 111,
+      "extracted_text": "annex_7.extracted_ko.txt",
+      "rag_chunks": "annex_7_rag_chunks.jsonl",
+      "source_file_stored_in_repository": false,
+      "layout_and_math_validated": false,
+      "ready_for_final_compliance_verdict": false
+    }
+  },
+  "warnings": [
+    "The extracted-text files preserve text but may flatten table cell geometry, formula objects and pictograms.",
+    "This is a partial technical extraction, not a complete or legally verified translation.",
+    "Annexes 4,5,6 remain unavailable; detailed SDS section-field completeness cannot yet be validated.",
+    "No legal-regulatory PASS determination should rely solely on these draft annex extracts."
+  ]
+}
