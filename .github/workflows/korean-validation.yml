@@ -3,10 +3,12 @@ on:
   push:
     paths:
       - "korean/**"
+      - ".agents/skills/korean-sds-compliance/**"
       - ".github/workflows/korean-validation.yml"
   pull_request:
     paths:
       - "korean/**"
+      - ".agents/skills/korean-sds-compliance/**"
       - ".github/workflows/korean-validation.yml"
   workflow_dispatch:
 
@@ -28,6 +30,8 @@ jobs:
         run: python korean/annexes/validate_annexes.py
       - name: Run conservative preflight regression tests
         run: python -m unittest discover -s korean/tests -p "test_*.py" -v
+      - name: Test Korean law-first Gemini SDS skill
+        run: python -m unittest discover -s .agents/skills/korean-sds-compliance/tests -p "test_*.py" -v
       - name: Parse every JSON and JSONL reference
         run: |
           python - <<'PY'
