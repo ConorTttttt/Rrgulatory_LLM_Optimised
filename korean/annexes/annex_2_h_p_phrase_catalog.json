@@ -8,14 +8,9 @@
     "coverage": "CODE_GLOSSARY_ONLY_NOT_GHS_PICTOGRAM_OR_CATEGORY_MAPPING",
     "pictograms_not_extracted": true,
     "category_to_phrase_mapping_requires_layout_verification": true,
-    "duplicate_codes": [
-      {
-        "code": "P370+P380+P375",
-        "first": "화재 시: 주변 지역의 사람을 대피시키시오. 폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오.",
-        "second": "[+P378]"
-      }
-    ],
-    "parsing_notes": []
+    "duplicate_codes": [],
+    "parsing_notes": [],
+    "manual_reconstruction_required": true
   },
   "phrases": [
     {
@@ -1398,11 +1393,12 @@
       "status": "EXTRACTED_NEEDS_REVIEW"
     },
     {
-      "code": "P370+P380+P375",
+      "code": "P370+P380+P375[+P378]",
       "section": "response_precaution",
-      "text_ko": "[+P378]",
+      "text_ko": "화재 시: 주변 지역의 사람을 대피시키시오. 폭발의 위험이 있으므로 거리를 유지하면서 불을 끄시오. [불을 끄기 위해 …을(를) 사용하시오.]",
       "source_heading": "별표 2 제2장 코드별 문구",
-      "status": "EXTRACTED_NEEDS_REVIEW"
+      "status": "EXTRACTED_NEEDS_REVIEW",
+      "extraction_note": "Optional P378 suffix spans three lines of flattened extraction; manually reconstructed and requires source-layout confirmation"
     },
     {
       "code": "P371+P380+P375",
