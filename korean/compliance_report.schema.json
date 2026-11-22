@@ -90,6 +90,36 @@
             "items": {
               "type": "string"
             }
+          },
+          "annex_source_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "annex_field_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "verification_method": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewer_approval_status": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "UNREVIEWED",
+              "REVIEWED",
+              "DISPUTED",
+              null
+            ]
           }
         }
       }
@@ -114,6 +144,53 @@
     },
     "review_scope_limitations": {
       "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "annex_review_summary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "annex",
+          "review_status"
+        ],
+        "properties": {
+          "annex": {
+            "type": "string",
+            "pattern": "^별표 [1-7]$"
+          },
+          "review_status": {
+            "type": "string",
+            "enum": [
+              "REVIEWED",
+              "PARTIAL",
+              "NOT_ASSESSED"
+            ]
+          },
+          "checks_verified": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_layout_verified": {
+            "type": "boolean"
+          },
+          "source_revision_verified": {
+            "type": "boolean"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "out_of_scope_checks": {
+      "type": "array",
+      "description": "Requirements outside the review boundary (NOT_ASSESSED), distinguished from statutory NOT_APPLICABLE.",
       "items": {
         "type": "string"
       }
