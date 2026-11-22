@@ -194,6 +194,10 @@
               }
             }
           }
+        },
+        "extraction_complete": {
+          "type": "boolean",
+          "description": "Explicit assertion that all pages, numbered sections and detailed Annex 4 fields have been completely extracted; do not set true without quality review. Missing values are NOT_ASSESSED otherwise."
         }
       }
     },
@@ -289,6 +293,13 @@
             ],
             "minimum": 0,
             "maximum": 100
+          },
+          "physical_hazard_group_under_rule_annex_18_1a": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Qualified reviewer-attested membership in implementing-rule Annex 18 §1(a); null means unverified, false is not inferred from absence."
           }
         }
       }
@@ -297,7 +308,38 @@
       "type": [
         "object",
         "null"
-      ]
+      ],
+      "properties": {
+        "container_capacity_liters": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "printed_label_area_cm2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "exterior_side_surface_area_cm2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "pictogram_areas_cm2": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      },
+      "description": "Actual measured container/label dimensions; not derived from SDS text."
     },
     "operations": {
       "type": [
