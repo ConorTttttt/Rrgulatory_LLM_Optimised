@@ -1,0 +1,100 @@
+# Annex 6 — Korean text extracted from uploaded HWP
+# Original HWP SHA-256: a36eae87c67771757e2d999d100de9ff8927afd2f208fd69502d5e7c0b541321
+# Original HWP size: 34304 bytes
+# Source: separately uploaded Annex 6 HWP
+# Extraction: indexed text; layout, tables, diagrams, images and formula objects NOT yet verified against original HWP
+# Regulatory reference: 고용노동부고시 제2026-26호; revision alignment NOT independently verified
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+별표 6
+
+<별표 6>  
+
+건강 및 환경 유해성 분류에 대한 한계농도 기준(제11조 관련)  
+
+ 
+
+구분 
+
+건강 및 환경 유해성 분류 
+
+한계농도 
+
+건강 유해성 
+
+1. 급성 독성 
+
+1% 
+
+2. 피부 부식성/피부 자극성 
+
+1% 
+
+3. 심한 눈 손상성/눈 자극성 
+
+1% 
+
+4. 호흡기 과민성 
+
+0.1% 
+
+5. 피부 과민성 
+
+0.1% 
+
+6. 생식세포 변이원성 
+
+1A 및 1B 
+
+0.1% 
+
+2 
+
+1% 
+
+7. 발암성 
+
+0.1% 
+
+8. 생식독성 
+
+0.1% 
+
+9. 특정표적장기독성 － 1회 노출 
+
+1% 
+
+10. 특정표적장기독성 － 반복 노출 
+
+1% 
+
+11. 흡인 유해성 
+
+1% 
+
+환경 유해성 
+
+12. 수생환경 유해성 
+
+1% 
+
+13. 오존층 유해성 
+
+0.1% 
+
