@@ -2,7 +2,7 @@
 """Validate Korean SDS regulatory LLM artifacts and rebuild derived retrieval indexes.
 
 Source inputs are existing Korean legal markdown + bilingual rule JSON.
-This is NOT the original HWPX extraction program. Annexes 1–7 remain absent.
+This is NOT the original HWPX extraction program. The original main-body HWPX has no annexes, but separately uploaded Annexes 1–7 are now indexed under annexes/. This script validates the main-body indexes only.
 """
 from __future__ import annotations
 
