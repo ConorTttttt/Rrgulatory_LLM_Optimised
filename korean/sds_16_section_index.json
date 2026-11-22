@@ -1,0 +1,102 @@
+{
+  "basis": "제10조제1항",
+  "full_detail_source": "별표 4 (not present in uploaded HWPX)",
+  "sections": [
+    {
+      "section_no": 1,
+      "title_ko": "화학제품과 회사에 관한 정보",
+      "source_ref": "제10조제1항제1호",
+      "source_text_ko": "화학제품과 회사에 관한 정보"
+    },
+    {
+      "section_no": 2,
+      "title_ko": "유해성ㆍ위험성",
+      "source_ref": "제10조제1항제2호",
+      "source_text_ko": "유해성ㆍ위험성"
+    },
+    {
+      "section_no": 3,
+      "title_ko": "구성성분의 명칭 및 함유량",
+      "source_ref": "제10조제1항제3호",
+      "source_text_ko": "구성성분의 명칭 및 함유량"
+    },
+    {
+      "section_no": 4,
+      "title_ko": "응급조치요령",
+      "source_ref": "제10조제1항제4호",
+      "source_text_ko": "응급조치요령"
+    },
+    {
+      "section_no": 5,
+      "title_ko": "폭발ㆍ화재시 대처방법",
+      "source_ref": "제10조제1항제5호",
+      "source_text_ko": "폭발ㆍ화재시 대처방법"
+    },
+    {
+      "section_no": 6,
+      "title_ko": "누출사고시 대처방법",
+      "source_ref": "제10조제1항제6호",
+      "source_text_ko": "누출사고시 대처방법"
+    },
+    {
+      "section_no": 7,
+      "title_ko": "취급 및 저장방법",
+      "source_ref": "제10조제1항제7호",
+      "source_text_ko": "취급 및 저장방법"
+    },
+    {
+      "section_no": 8,
+      "title_ko": "노출방지 및 개인보호구",
+      "source_ref": "제10조제1항제8호",
+      "source_text_ko": "노출방지 및 개인보호구"
+    },
+    {
+      "section_no": 9,
+      "title_ko": "물리화학적 특성",
+      "source_ref": "제10조제1항제9호",
+      "source_text_ko": "물리화학적 특성"
+    },
+    {
+      "section_no": 10,
+      "title_ko": "안정성 및 반응성",
+      "source_ref": "제10조제1항제10호",
+      "source_text_ko": "안정성 및 반응성"
+    },
+    {
+      "section_no": 11,
+      "title_ko": "독성에 관한 정보",
+      "source_ref": "제10조제1항제11호",
+      "source_text_ko": "독성에 관한 정보"
+    },
+    {
+      "section_no": 12,
+      "title_ko": "환경에 미치는 영향",
+      "source_ref": "제10조제1항제12호",
+      "source_text_ko": "환경에 미치는 영향"
+    },
+    {
+      "section_no": 13,
+      "title_ko": "폐기 시 주의사항",
+      "source_ref": "제10조제1항제13호",
+      "source_text_ko": "폐기 시 주의사항"
+    },
+    {
+      "section_no": 14,
+      "title_ko": "운송에 필요한 정보",
+      "source_ref": "제10조제1항제14호",
+      "source_text_ko": "운송에 필요한 정보"
+    },
+    {
+      "section_no": 15,
+      "title_ko": "법적규제 현황",
+      "source_ref": "제10조제1항제15호",
+      "source_text_ko": "법적규제 현황"
+    },
+    {
+      "section_no": 16,
+      "title_ko": "그 밖의 참고사항",
+      "source_ref": "제10조제1항제16호",
+      "source_text_ko": "그 밖의 참고사항"
+    }
+  ]
+}
