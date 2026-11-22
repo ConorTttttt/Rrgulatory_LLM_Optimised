@@ -1,7 +1,7 @@
 {
   "title": "Annex availability and extracted-text limitations — main-body HWPX versus separately uploaded files",
   "source_notice": "고용노동부고시 제2026-26호",
-  "all_present": false,
+  "all_present": true,
   "annexes": [
     {
       "annex": "별표 1",
@@ -41,39 +41,39 @@
     },
     {
       "annex": "별표 4",
-      "present_in_upload": false,
+      "present_in_upload": true,
       "needed_for": "SDS detailed section-by-section required fields",
       "anchor_articles": "제10조제2항",
-      "impact": "Do not determine compliance of dependent criteria without authoritative annex text and product evidence.",
+      "impact": "Available for draft text retrieval/field inventory, but full compliance needs validated official version, source layout and product evidence.",
       "present_in_original_main_body_hwpx": false,
-      "separately_uploaded_source_sha256": null,
-      "extracted_text_path": null,
+      "separately_uploaded_source_sha256": "302e801b2e28a24043d4e79a6ce3e287216b63b1b4c1bc65f45593fa03e47e6c",
+      "extracted_text_path": "annexes/annex_4.extracted_ko.txt",
       "extraction_verified_for_images_and_layout": false,
-      "status": "MISSING"
+      "status": "SEPARATELY_UPLOADED_TEXT_EXTRACT_UNVERIFIED_LAYOUT"
     },
     {
       "annex": "별표 5",
-      "present_in_upload": false,
+      "present_in_upload": true,
       "needed_for": "Chemical use classification/related criteria referenced by the notice",
       "anchor_articles": "제11조제8항",
-      "impact": "Do not determine compliance of dependent criteria without authoritative annex text and product evidence.",
+      "impact": "Available for draft text retrieval/field inventory, but full compliance needs validated official version, source layout and product evidence.",
       "present_in_original_main_body_hwpx": false,
-      "separately_uploaded_source_sha256": null,
-      "extracted_text_path": null,
+      "separately_uploaded_source_sha256": "557ad609d9489416896209e42ea7807cec9837e76b3badbee3515d094d5c3c55",
+      "extracted_text_path": "annexes/annex_5.extracted_ko.txt",
       "extraction_verified_for_images_and_layout": false,
-      "status": "MISSING"
+      "status": "SEPARATELY_UPLOADED_TEXT_EXTRACT_UNVERIFIED_LAYOUT"
     },
     {
       "annex": "별표 6",
-      "present_in_upload": false,
+      "present_in_upload": true,
       "needed_for": "Mixture thresholds or relevant concentration limits",
       "anchor_articles": "제11조제9항",
-      "impact": "Do not determine compliance of dependent criteria without authoritative annex text and product evidence.",
+      "impact": "Available for draft text retrieval/field inventory, but full compliance needs validated official version, source layout and product evidence.",
       "present_in_original_main_body_hwpx": false,
-      "separately_uploaded_source_sha256": null,
-      "extracted_text_path": null,
+      "separately_uploaded_source_sha256": "a36eae87c67771757e2d999d100de9ff8927afd2f208fd69502d5e7c0b541321",
+      "extracted_text_path": "annexes/annex_6.extracted_ko.txt",
       "extraction_verified_for_images_and_layout": false,
-      "status": "MISSING"
+      "status": "SEPARATELY_UPLOADED_TEXT_EXTRACT_UNVERIFIED_LAYOUT"
     },
     {
       "annex": "별표 7",
@@ -122,12 +122,13 @@
     "별표 1",
     "별표 2",
     "별표 3",
-    "별표 7"
-  ],
-  "still_missing": [
     "별표 4",
     "별표 5",
-    "별표 6"
+    "별표 6",
+    "별표 7"
   ],
-  "source_version_alignment": "UNVERIFIED — confirm each separately uploaded HWP annex against the official 2026-26 consolidated notice"
+  "still_missing": [],
+  "source_version_alignment": "UNVERIFIED — confirm all uploaded separate HWP annexes against official 2026-26 notice",
+  "all_seven_annex_texts_accessible_in_repository": true,
+  "production_validated": false
 }
