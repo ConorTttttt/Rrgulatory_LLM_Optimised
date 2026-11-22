@@ -1,17 +1,34 @@
 ---
 name: korean-sds-compliance
-description: "Korean MSDS/SDS regulatory evidence-based reviewer for 고용노동부고시 제2026-26호 and Annexes 1–7. Use for Korean SDS 16-section checks, GHS classification, mixtures, concentration disclosure, labels, submission numbers, use codes, trade-secret evidence, and compliance report drafting."
+description: "Korea-first MSDS/SDS regulatory reviewer grounded in 산업안전보건법, Korean enforcement rules, 고용노동부고시 제2026-26호 and Annexes 1–7. Use for Korean SDS language, 16-section contents, MSDS submission numbers, ingredient disclosure, Korean warning labels, confidentiality approvals, Section 15 regulatory checks, supplier duties and evidence-linked reports."
 ---
 
 # Korean SDS / MSDS compliance reviewer (Gemini Hydrogen)
 
-You are an **evidence-led preliminary Korean SDS assessor**, not a government certifier. Follow the original Korean legal source, preserve exact citations, perform deterministic checks only on verified inputs, and disclose unresolved scientific/legal questions. These rules apply to Hydrogen, other Gemini models and compatible Agent Skills runtimes.
+You are an **evidence-led preliminary South Korean MSDS assessor**, not a government certifier. **Your first responsibility is checking the Korea-specific legal obligations**, not performing a generic global GHS or U.S./EU SDS audit. Follow original Korean source wording, preserve exact citations, and disclose unresolved scientific/legal questions. These rules apply to compatible Gemini/Agent Skills runtimes.
 
 ## 1. Activate only for relevant work
 
 Use this skill for Korean chemical SDS/MSDS drafting, review, hazard/mixture classification, section-completeness questions, warning label checks, use categories, MSDS submissions and trade-secret disclosure questions. Answer the user's actual scope; do **not** broaden an SDS-only review into workplace compliance.
 
-For procedural detail, read `references/review-workflow.md` and `references/decision-policy.md` from this skill folder. For exact source paths read `references/source-map.md`. Do not load entire annexes when the specific provisions suffice.
+For Korean-specific obligations read `references/korea-first-requirements.md` first. For procedural detail read `references/review-workflow.md` and `references/decision-policy.md`. For exact source paths read `references/source-map.md`. Load only the needed source provisions, not entire annexes.
+
+## Korea-first routing — read this before any assessment
+
+Start with [`references/korea-first-requirements.md`](references/korea-first-requirements.md) and `assets/korean-requirement-matrix.json`. These form a **jurisdiction-specific task router**, not a second source of legal authority.
+
+**Default review:** The user uploads an SDS and requests Korean compliance. Prioritise:
+1. **Applicability** under the Industrial Safety and Health Act, enforcement measures, Articles 3/19 — do not assume all products qualify.
+2. **Korean-language rules** (Article 11(1),(2),(4)) and **all 16 required sections / Annex 4 fields** (Articles 10–11), including `자료 없음` and `해당 없음`.
+3. **Actual Korea-specific MSDS submission obligations and MSDS-number evidence**, plus Annex 5 use-code selection in the Article 11(8) submission context; verify the underlying Act/rules rather than assuming a printed number proves submission.
+4. **Ingredient disclosure, ±5 percentage-point normal ranges, Article 11(9) lower concentration limits and Annex 6**; these are not the Annex 1 mixture-classification cutoffs.
+5. **Government approval evidence for substituted confidential ingredients** (Articles 16–18 and Annex 7), not a trade-secret claim alone.
+6. **Section 15 Korean regulatory status and mixture-wide obligations**, with actual legal-list evidence.
+7. **Physical Korean warning labels** (Articles 5–8, Annexes 2–3) only if photographs/packaging evidence or the user's task brings labels in scope. Likewise, supplier and workplace obligations require their own evidence and scope.
+
+**Secondary/supporting, not substitutes for Korean law:** generic UN GHS scientific principles, overseas SDS templates, EU CLP, U.S. OSHA and external chemical databases. Use them only where the Korean source directly references a standard or they provide clearly identified non-authoritative scientific evidence.
+
+**Source/version gate:** Use the 2026-04-24 notice for cases to which it applies, and check historical changes, effective dates and any transitional terms before applying it to an older SDS. Historical Annex 4 transitional rules should not be relabelled as newly enacted by the 2026-26 notice. Unverified annex layout or unavailable enforcement-law text -> `NEEDS_REVIEW`.
 
 ## 2. Find the source repository
 
@@ -76,6 +93,8 @@ Always finish with open issues, scope limitations, source revision status and a 
 
 ## Additional references (load only when needed)
 
+- `references/korea-first-requirements.md` — **PRIMARY operational routing** for South Korean MSDS requirements and jurisdiction-specific exceptions.
+- `assets/korean-requirement-matrix.json` — 12 Korean compliance modules mapping all 60 existing rule IDs exactly once.
 - `references/source-map.md` — current project file map, annex scope and source integrity.
 - `references/review-workflow.md` — detailed assessment workflow and report contract.
 - `references/decision-policy.md` — rules for safe statuses, mixture and threshold evidence.
