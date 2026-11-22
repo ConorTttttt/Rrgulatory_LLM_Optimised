@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "regulatory_source": "고용노동부고시 제2026-26호 — uploaded 별표 1",
+    "source_file_sha256": "23be57b89a3351daddac6afc50edf983cdb505adbecca3fdc5d1ab4207bae9ec",
+    "coverage": "CURATED_PARTIAL",
+    "threshold_rule_count": 18,
+    "source_text_layout_warning": "Embedded formula objects and some table alignments are not preserved in the indexed extracted text.",
+    "status": "DRAFT_VERIFY_BEFORE_PRODUCTION",
+    "not_a_complete_hazard_classifier": true
+  },
+  "rules": [
+    {
+      "rule_id": "A1-FLAMLIQ-01",
+      "annex": "별표 1",
+      "source_heading": "2.6. 인화성 액체",
+      "hazard_class": "flammable_liquid",
+      "hazard_category": "1",
+      "applicability": "Liquid; pure substance or mixture",
+      "input_fields": [
+        "flash_point_c",
+        "initial_boiling_point_c"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "flash_point_c",
+            "op": "<",
+            "value": 23
+          },
+          {
+            "field": "initial_boiling_point_c",
+            "op": "<=",
+            "value": 35
+          }
+        ]
+      },
+      "source_quote_ko": "인화점이 23 ℃ 미만이고 초기 끓는점이 35 ℃ 이하인 액체",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": ""
+    },
+    {
+      "rule_id": "A1-FLAMLIQ-02",
+      "annex": "별표 1",
+      "source_heading": "2.6. 인화성 액체",
+      "hazard_class": "flammable_liquid",
+      "hazard_category": "2",
+      "applicability": "Liquid; pure substance or mixture",
+      "input_fields": [
+        "flash_point_c",
+        "initial_boiling_point_c"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "flash_point_c",
+            "op": "<",
+            "value": 23
+          },
+          {
+            "field": "initial_boiling_point_c",
+            "op": ">",
+            "value": 35
+          }
+        ]
+      },
+      "source_quote_ko": "인화점이 23 ℃ 미만이고 초기 끓는점이 35 ℃를 초과하는 액체",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": ""
+    },
+    {
+      "rule_id": "A1-FLAMLIQ-03",
+      "annex": "별표 1",
+      "source_heading": "2.6. 인화성 액체",
+      "hazard_class": "flammable_liquid",
+      "hazard_category": "3",
+      "applicability": "Liquid; pure substance or mixture",
+      "input_fields": [
+        "flash_point_c"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "flash_point_c",
+            "op": ">=",
+            "value": 23
+          },
+          {
+            "field": "flash_point_c",
+            "op": "<=",
+            "value": 60
+          }
+        ]
+      },
+      "source_quote_ko": "인화점이 23 ℃ 이상  60 ℃ 이하인 액체",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": ""
+    },
+    {
+      "rule_id": "A1-FLAMLIQ-04",
+      "annex": "별표 1",
+      "source_heading": "2.6. 인화성 액체",
+      "hazard_class": "flammable_liquid",
+      "hazard_category": "4",
+      "applicability": "Liquid; pure substance or mixture",
+      "input_fields": [
+        "flash_point_c"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "flash_point_c",
+            "op": ">",
+            "value": 60
+          },
+          {
+            "field": "flash_point_c",
+            "op": "<=",
+            "value": 93
+          }
+        ]
+      },
+      "source_quote_ko": "인화점이 60 ℃ 초과 93 ℃ 이하인 액체",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": ""
+    },
+    {
+      "rule_id": "A1-ORALATE-01",
+      "annex": "별표 1",
+      "source_heading": "3.1. 급성 독성",
+      "hazard_class": "acute_toxicity_oral",
+      "hazard_category": "1",
+      "applicability": "Substance oral ATE or appropriately calculated mixture oral ATE",
+      "input_fields": [
+        "oral_ate_mg_per_kg"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": "<=",
+            "value": 5
+          }
+        ]
+      },
+      "source_quote_ko": "① 경구 : ATE ≤ 5 (mg/kg 체중)",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Mixture ATE calculations in Annex 1 contain embedded equations not preserved in this text extraction; do not compute without confirmed formulas."
+    },
+    {
+      "rule_id": "A1-ORALATE-02",
+      "annex": "별표 1",
+      "source_heading": "3.1. 급성 독성",
+      "hazard_class": "acute_toxicity_oral",
+      "hazard_category": "2",
+      "applicability": "Substance oral ATE or appropriately calculated mixture oral ATE",
+      "input_fields": [
+        "oral_ate_mg_per_kg"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": ">",
+            "value": 5
+          },
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": "<=",
+            "value": 50
+          }
+        ]
+      },
+      "source_quote_ko": "① 경구 : 5 < ATE ≤ 50 (mg/kg 체중)",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Mixture ATE calculations in Annex 1 contain embedded equations not preserved in this text extraction; do not compute without confirmed formulas."
+    },
+    {
+      "rule_id": "A1-ORALATE-03",
+      "annex": "별표 1",
+      "source_heading": "3.1. 급성 독성",
+      "hazard_class": "acute_toxicity_oral",
+      "hazard_category": "3",
+      "applicability": "Substance oral ATE or appropriately calculated mixture oral ATE",
+      "input_fields": [
+        "oral_ate_mg_per_kg"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": ">",
+            "value": 50
+          },
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": "<=",
+            "value": 300
+          }
+        ]
+      },
+      "source_quote_ko": "① 경구 : 50 < ATE ≤ 300 (mg/kg 체중)",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Mixture ATE calculations in Annex 1 contain embedded equations not preserved in this text extraction; do not compute without confirmed formulas."
+    },
+    {
+      "rule_id": "A1-ORALATE-04",
+      "annex": "별표 1",
+      "source_heading": "3.1. 급성 독성",
+      "hazard_class": "acute_toxicity_oral",
+      "hazard_category": "4",
+      "applicability": "Substance oral ATE or appropriately calculated mixture oral ATE",
+      "input_fields": [
+        "oral_ate_mg_per_kg"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": ">",
+            "value": 300
+          },
+          {
+            "field": "oral_ate_mg_per_kg",
+            "op": "<=",
+            "value": 2000
+          }
+        ]
+      },
+      "source_quote_ko": "① 경구 : 300 < ATE ≤ 2,000 (mg/kg 체중)",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Mixture ATE calculations in Annex 1 contain embedded equations not preserved in this text extraction; do not compute without confirmed formulas."
+    },
+    {
+      "rule_id": "A1-MUT-1A",
+      "annex": "별표 1",
+      "source_heading": "3.5. 생식세포 변이원성",
+      "hazard_class": "germ_cell_mutagenicity",
+      "hazard_category": "1A",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1A"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.1
+          }
+        ]
+      },
+      "source_quote_ko": "생식세포 변이원성(구분 1A)인 성분의 함량이 0.1 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-MUT-1B",
+      "annex": "별표 1",
+      "source_heading": "3.5. 생식세포 변이원성",
+      "hazard_class": "germ_cell_mutagenicity",
+      "hazard_category": "1B",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1B"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.1
+          }
+        ]
+      },
+      "source_quote_ko": "생식세포 변이원성(구분 1B)인 성분의 함량이 0.1 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-MUT-2",
+      "annex": "별표 1",
+      "source_heading": "3.5. 생식세포 변이원성",
+      "hazard_class": "germ_cell_mutagenicity",
+      "hazard_category": "2",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "2"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 1
+          }
+        ]
+      },
+      "source_quote_ko": "생식세포 변이원성(구분 2)인 성분의 함량이 1.0 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-CAR-1A",
+      "annex": "별표 1",
+      "source_heading": "3.6. 발암성",
+      "hazard_class": "carcinogenicity",
+      "hazard_category": "1A",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1A"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.1
+          }
+        ]
+      },
+      "source_quote_ko": "발암성(구분 1A)인 성분의 함량이 0.1 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-CAR-1B",
+      "annex": "별표 1",
+      "source_heading": "3.6. 발암성",
+      "hazard_class": "carcinogenicity",
+      "hazard_category": "1B",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1B"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.1
+          }
+        ]
+      },
+      "source_quote_ko": "발암성(구분 1B)인 성분의 함량이 0.1 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-CAR-2",
+      "annex": "별표 1",
+      "source_heading": "3.6. 발암성",
+      "hazard_class": "carcinogenicity",
+      "hazard_category": "2",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "2"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 1
+          }
+        ]
+      },
+      "source_quote_ko": "발암성(구분 2)인 성분의 함량이 1.0 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-REP-1A",
+      "annex": "별표 1",
+      "source_heading": "3.7. 생식독성",
+      "hazard_class": "reproductive_toxicity",
+      "hazard_category": "1A",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1A"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.3
+          }
+        ]
+      },
+      "source_quote_ko": "생식독성(구분 1A)인 성분의 함량이 0.3 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-REP-1B",
+      "annex": "별표 1",
+      "source_heading": "3.7. 생식독성",
+      "hazard_class": "reproductive_toxicity",
+      "hazard_category": "1B",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "1B"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.3
+          }
+        ]
+      },
+      "source_quote_ko": "생식독성(구분 1B)인 성분의 함량이 0.3 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-REP-2",
+      "annex": "별표 1",
+      "source_heading": "3.7. 생식독성",
+      "hazard_class": "reproductive_toxicity",
+      "hazard_category": "2",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "2"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 3
+          }
+        ]
+      },
+      "source_quote_ko": "생식독성(구분 2)인 성분의 함량이 3.0 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    },
+    {
+      "rule_id": "A1-REP-lactation",
+      "annex": "별표 1",
+      "source_heading": "3.7. 생식독성",
+      "hazard_class": "reproductive_toxicity",
+      "hazard_category": "lactation",
+      "applicability": "Mixture; component category confirmed; may be overridden by valid whole-mixture evidence or bridging where the annex permits",
+      "input_fields": [
+        "component_hazard_category",
+        "component_concentration_percent"
+      ],
+      "condition": {
+        "all": [
+          {
+            "field": "component_hazard_category",
+            "op": "=",
+            "value": "lactation"
+          },
+          {
+            "field": "component_concentration_percent",
+            "op": ">=",
+            "value": 0.3
+          }
+        ]
+      },
+      "source_quote_ko": "수유독성을 가지는 성분의 함량이 0.3 % 이상인 혼합물",
+      "evaluation_safety": "Apply as a specific criterion only; not a complete classification. Check whole-mixture testing, bridging, exceptions, and other higher-priority hazard categories.",
+      "notes": "Do not infer final mixture hazard category from this one rule alone; resolve category precedence and expert exceptions."
+    }
+  ]
+}
