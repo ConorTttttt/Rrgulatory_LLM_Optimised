@@ -1,37 +1,35 @@
-# Korean SDS regulatory annexes
+# Korean SDS Annexes 1–7 — extracted and structured review aids
 
-This directory contains **four separately uploaded annexes** to *화학물질의 분류·표시 및 물질안전보건자료에 관한 기준*, prepared for LLM retrieval and controlled review.
+All **seven separately uploaded HWP annexes** to `고용노동부고시 제2026-26호` now have Korean text extracts and retrieval chunks in this directory.
 
-**Received:** 별표 1, 2, 3, 7.  
-**Still required:** **별표 4, 5, 6**. Of these, Annex 4 is the priority for detailed requirements inside SDS Sections 1–16.
+## Inventory
 
-## Files and status
+| Annex | Purpose | Main structured resource |
+|---|---|---|
+| **1** | Hazard classifications and mixture methods | [18 curated thresholds](annex_1_curated_thresholds.json) |
+| **2** | H/P codes, warning-label statements and pictograms | [218 H/P phrase entries](annex_2_h_p_phrase_catalog.json) |
+| **3** | Warning-label dimensions | [5 container capacity bands + 2 pictogram dimensions](annex_3_label_dimensions.json) |
+| **4** | Required SDS content for Sections 1–16 | [97 field/subfield checks](annex_4_sds_field_requirements.json), [flat JSONL rules](annex_4_sds_field_rules.jsonl) |
+| **5** | Product use vocabulary | [48 primary and 31 subordinate use categories](annex_5_use_categories.json) |
+| **6** | Health/environment hazard concentration limits for Article 11 | [14 threshold entries](annex_6_concentration_limits.json) |
+| **7** | Evidence of trade secrecy and justification of alternative disclosure | [18 evidence prompts](annex_7_trade_secret_evidence_checklist.json) |
 
-| Annex | Extracted Korean text | Retrieval | Initial machine-readable checks |
-|---|---|---|---|
-| 1 — classification criteria | `annex_1.extracted_ko.txt` | `annex_1_rag_chunks.jsonl` | `annex_1_curated_thresholds.json` (18 draft thresholds) |
-| 2 — hazard label elements | `annex_2.extracted_ko.txt` | `annex_2_rag_chunks.jsonl` | `annex_2_h_p_phrase_catalog.json` (218 H/P code entries) |
-| 3 — label dimensions | `annex_3.extracted_ko.txt` | `annex_3_rag_chunks.jsonl` | `annex_3_label_dimensions.json` (5 container size ranges, 2 pictogram size rules) |
-| 7 — trade-secret evidence | `annex_7.extracted_ko.txt` | `annex_7_rag_chunks.jsonl` | `annex_7_trade_secret_evidence_checklist.json` (18 evidence prompts) |
+Each annex also has `annex_N.extracted_ko.txt` (Korean text) and `annex_N_rag_chunks.jsonl` (retrieval chunks). The source hashes and exact extraction/verification status are in [`annex_sources_manifest.json`](annex_sources_manifest.json).
 
-See `annex_sources_manifest.json` for source SHA-256 hashes and legal-version alignment status.
+### Applicability and classification safeguards
 
-## Important extraction and interpretation restrictions
+- **Annex 4:** The MSDS submission number is identified at the top of the first page outside the numbered SDS items. Whether a submission-number obligation applies requires checking the underlying law, product role and relevant exceptions. Field presence and completeness are not chemical accuracy.
+- **Annex 5:** Article 11(8) says selecting an Annex 5 category is optional for ordinary SDS preparation, but mandatory for the SDS submission context identified in that provision.
+- **Annex 6:** Under Article 11(9), use the specified lower concentration threshold where relevant conditions overlap. **Do not conflate these disclosure-information thresholds with Annex 1 GHS mixture classification thresholds.**
+- **Annex 1:** Mixture classification methods involve whole-mixture evidence, bridging principles and ingredient-based calculation; individual cutoff examples are not a complete classifier.
+- **Annex 2:** Text extraction cannot preserve the pictogram images or reliably preserve wide table-cell alignments. The H/P code glossary is **not** a complete hazard-class-to-label mapping.
+- **Annex 3:** Label size rules require measured container/label dimensions and checking any statutory exceptions.
+- **Annex 7:** Trade-secret evidence is not proof of an approval decision.
 
-1. The **original HWP binaries are user-provided source material, not committed in GitHub**. The extracted Korean texts are not facsimiles.
-2. HWP table geometry is flattened in text extraction. Some formulas and all pictogram images are not retained as authoritative structured data in these files. In particular, do not assume Annex 2's class-by-class hazard/pictogram table is correctly machine-readable from `.txt` alone.
-3. Annex 1 criteria for mixture classification use a hierarchy of whole-mixture testing, bridging principles, and ingredient-based methods; do not apply isolated threshold rules without checking method applicability.
-4. The Annex 3 dimensions are objective draft validation rules, but require measured label/container evidence and examination of Article 7 and applicable exceptions.
-5. Annex 7 criteria concern **evidence of trade secrecy and need for alternative disclosure**, not proof of regulatory approval. Never infer an approval from a written claim or a missing ingredient name.
-6. Uploaded annex filenames do not, by themselves, prove that the files correspond exactly to the **2026-04-24 amended** text. Confirm source revision against the official promulgated record before production use.
-7. Annexes **4, 5, 6 remain missing**, and these incomplete extractions do not support an unconditional SDS compliance `PASS`.
+### Verification status
 
-## Suggested LLM retrieval order
+**Uploaded annexes missing: none.** **Production-ready annexes: none have yet passed an independent source-layout/version check.**
 
-1. Retrieve the main-body provision and its cross-reference to an Annex.
-2. Retrieve the corresponding `annex_N_rag_chunks.jsonl` chunk and check extracted Korean wording.
-3. Use the curated machine-readable rules only where their preconditions and evidence can be confirmed.
-4. Request exact official HWP/PDF table or image and qualified regulatory review whenever layout, formula, scientific interpretation, or legal exemptions matter.
-5. Mark unresolved checks as `NEEDS_REVIEW`, not `PASS`.
+The extracted-text copies are not HWP facsimiles. Original HWP binaries are **not committed to GitHub**. Equations, images, table boundaries, exact legal revision and cross-referenced legislation must be verified before production compliance decisions. Qualified reviewers should confirm scientific classifications and trade-secret authorisations.
 
-**Annex 2 phrase catalogue:** H/P phrases are useful for language checking, not sufficient to determine which symbols or statements a product must display; that mapping requires exact hazard class, category, additional rules and visual verification.
+If no sufficient evidence supports a check, use `NEEDS_REVIEW` rather than a fabricated PASS/FAIL. [View the manifest](annex_sources_manifest.json).
