@@ -26,7 +26,22 @@
     "rule_count": 60,
     "criteria_in_uploaded_source_only": true,
     "quote_policy": "Each legal_sources.verbatim_ko is exact paragraph text extracted from uploaded HWPX",
-    "priority_not_legal_severity": "priority is a suggested workflow triage label, not a statutory penalty ranking"
+    "priority_not_legal_severity": "priority is a suggested workflow triage label, not a statutory penalty ranking",
+    "separately_uploaded_annexes_available": [
+      "별표 1",
+      "별표 2",
+      "별표 3",
+      "별표 4",
+      "별표 5",
+      "별표 6",
+      "별표 7"
+    ],
+    "annex_derived_checks_status": "DRAFT_REVIEW_REQUIRED; source layout and source revision alignment not independently confirmed",
+    "review_sources": [
+      "annexes/annex_4_sds_field_requirements.json",
+      "annexes/annex_5_use_categories.json",
+      "annexes/annex_6_concentration_limits.json"
+    ]
   },
   "domains": {
     "classification": 2,
@@ -377,7 +392,7 @@
       "rule_id": "SDS-002",
       "domain": "sds_structure",
       "requirement_english": "Detailed subsection and field requirements come from Annex 4.",
-      "evaluation_instruction": "Cannot validate detailed subsection completeness until Annex 4 is available; additional worker-protective sections are allowed.",
+      "evaluation_instruction": "Annex 4 is now available as a draft structured 16-section/97-field checklist. Compare each field and nested subfield with SDS evidence, apply Article 11 treatment of unavailable/not applicable entries and any relevant exceptions; validate source layout and version before production. Additional worker-safety subitems may be included.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -400,7 +415,9 @@
           "source_id": "A10-C02"
         }
       ],
-      "notes": []
+      "notes": [],
+      "implementation_artifact": "annexes/annex_4_sds_field_requirements.json",
+      "implementation_status": "DRAFT_SOURCE_TEXT_EXTRACTED"
     },
     {
       "rule_id": "SDS-003",
@@ -524,7 +541,7 @@
       "rule_id": "SDS-007",
       "domain": "sds_intended_use",
       "requirement_english": "Use category selected from Annex 5 is mandatory when formally submitting the SDS.",
-      "evaluation_instruction": "Check at least one valid Annex 5 category if submission context is yes; optional for preparation without submission.",
+      "evaluation_instruction": "For the SDS submission scenario in Art. 11(8), require at least one legitimate Annex 5 use code. Outside the specified submission context, the same clause permits optional category selection when preparing the SDS. Do not presume an exemption from product use alone.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -550,13 +567,15 @@
           "source_id": "A11-C08"
         }
       ],
-      "notes": []
+      "notes": [],
+      "implementation_artifact": "annexes/annex_5_use_categories.json",
+      "implementation_status": "DRAFT_SOURCE_TEXT_EXTRACTED"
     },
     {
       "rule_id": "SDS-008",
       "domain": "sds_composition",
       "requirement_english": "Low-concentration component information may be omitted from Article 10 sections only within applicable thresholds.",
-      "evaluation_instruction": "For mixture components potentially below thresholds, compare physical categories against 1% in Rule Annex 18 1(a), other categories against Annex 6 concentration limits; use LOWER threshold if both. Never treat 1% as a blanket exemption.",
+      "evaluation_instruction": "Use Annex 6 concentration limits under Art. 11(9) for potential omission of information on components that meet the implementing-rule hazard group. For implementing-rule Annex 18 §1(a) use the 1% criterion referenced by Art. 11(9); for §1(b) use the appropriate Annex 6 threshold. Where both groups apply, use the LOWER limit. These are composition-information omission limits, not Annex 1 mixture GHS category thresholds. Check actual ingredient concentration, classified hazards, context, exceptions and implementing-rule source before deciding.",
       "applicability": "Material is within the scope of this provision.",
       "exceptions": [],
       "inputs_required": [
@@ -584,7 +603,9 @@
           "source_id": "A11-C09"
         }
       ],
-      "notes": []
+      "notes": [],
+      "implementation_artifact": "annexes/annex_6_concentration_limits.json",
+      "implementation_status": "DRAFT_SOURCE_TEXT_EXTRACTED"
     },
     {
       "rule_id": "SDS-009",
