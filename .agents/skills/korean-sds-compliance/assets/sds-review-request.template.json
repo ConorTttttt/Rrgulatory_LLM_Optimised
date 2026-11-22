@@ -1,0 +1,22 @@
+{
+  "$comment": "Synthetic intake request template; fields are illustrative, not evidence for a real product. Use korean/sds_intake.schema.json for full intake.",
+  "document_id": "SYNTHETIC-KR-MSDS-001",
+  "requested_scope": "SDS_DOCUMENT_ONLY",
+  "product_name": "Synthetic example (not a real chemical)",
+  "jurisdiction": "South Korea",
+  "notice_basis": "고용노동부고시 제2026-26호",
+  "assessment_date": null,
+  "sds_revision_date": null,
+  "is_submission_context": null,
+  "source_sds_filename": null,
+  "source_sds_attached": false,
+  "physical_label_attached": false,
+  "manufacturer_importer_role": null,
+  "annex_5_use_codes": [],
+  "questions": [
+    "Are all Annex 4 fields documented and legally addressed?",
+    "Are Annex 6 thresholds applied only for permissible ingredient information omission?",
+    "What evidence is needed for an accurate hazard classification?"
+  ],
+  "expected_system_behaviour": "NEEDS_REVIEW until SDS, applicable official law, original annex graphic/layout verification and substance-specific evidence are provided"
+}
