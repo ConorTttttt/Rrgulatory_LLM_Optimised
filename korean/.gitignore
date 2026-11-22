@@ -1,0 +1,10 @@
+# Never accidentally commit real SDS or confidential composition evidence
+private_sds/
+private_intake/
+private_reports/
+private_evidence/
+secrets/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
